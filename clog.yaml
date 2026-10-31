@@ -1,5 +1,5 @@
 # 由 fetch_validate.py 自动生成 —— 节点经过内核真实握手验证
-# 生成时间 2026-10-31 07:52:04  可用节点 40 个
+# 生成时间 2026-10-31 11:47:41  可用节点 40 个
 mixed-port: 7890
 allow-lan: false
 bind-address: '*'
@@ -3857,18 +3857,73 @@ rules:
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 proxies:
-- name: 🇺🇸US_10|76KB/s|B007-260618 [2713784692c5
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  port: 18000
-  server: 84.17.41.2
-  skip-cert-verify: false
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #9'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.176
+  sni: blog.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+- name: 🇮🇳IN_1|368KB/s|B007-260618 [403ae48696dd
+  encryption: none
+  network: ws
+  port: 2082
+  server: 172.64.150.28
   sub_tag: B007-260618
-  tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /fp
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_13|169KB/s|A004-260618 [b0afd74c484
+  network: ws
+  port: 8080
+  server: 104.18.0.181
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+- name: 🇫🇷FR_7|210KB/s|M002-260618 [d6e9223fb686
+  encryption: none
+  network: ws
+  port: 8080
+  server: 104.18.35.86
+  sub_tag: M002-260618
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+- name: ❓Other_23|355KB/s|A004-260618 [17e99393b
+  network: ws
+  port: 2082
+  server: 104.19.95.153
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
   xudp: true
   packet-encoding: xudp
 - name: 🇫🇷FR_6|572KB/s|A004-260618 [bdfccd5c19e1
@@ -3887,6 +3942,49 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇺🇸 美国 | USA 9
+  server: 8.6.112.86
+  port: 8080
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: false
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  udp: true
+- name: ❓Other_54|172KB/s|A004-260618 [ed0ca8afa
+  network: ws
+  port: 8080
+  server: 104.16.215.234
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇨🇦CA_3|288KB/s|C002-260622 [272f831caaeb
+  alterId: '0'
+  cipher: auto
+  network: raw
+  port: 18000
+  server: 23.162.200.198
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
 - type: vless
   name: ❓未知丨yoyapai.com (54)
   server: 172.64.152.241
@@ -3902,53 +4000,15 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🇫🇷FR_44|118KB/s|B007-260618 [8590215ade3
-  encryption: none
-  network: ws
-  port: 443
-  server: 104.21.221.158
-  sub_tag: B007-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: ❓Other_23|355KB/s|A004-260618 [17e99393b
-  network: ws
-  port: 2082
-  server: 104.19.95.153
-  sub_tag: A004-260618
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
 - client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #3'
-  network: ws
-  port: 443
-  server: 104.18.41.86
-  servername: ccc.010304.xyz
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
+  network: tcp
+  port: 18580
+  server: us007.zestapp778.com
+  servername: us007.zestapp778.com
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - name: 🇺🇸 美国 | USA 3
   server: 104.19.90.35
   port: 443
@@ -3963,19 +4023,23 @@ proxies:
     headers:
       Host: ccc.010304.xyz
   udp: true
-- name: 🇺🇸 美国 | USA 9
-  server: 8.6.112.86
-  port: 8080
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: false
-  servername: hhlfy.twiladaphne.ndjp.net
+- name: ❓Other_57|124KB/s|S004-260618 [4e3ddc5e9
+  encryption: none
   network: ws
+  port: 8080
+  server: 172.64.150.43
+  sub_tag: S004-260618
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
-    path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-  udp: true
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: 'hhlfy.twiladaphne.ndjp.net '
 - name: 🇫🇷FR_45|569KB/s|B007-260618 [23561ce89fb
   client-fingerprint: chrome
   encryption: none
@@ -3995,30 +4059,53 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: ccc.010304.xyz
-- name: ❓Other_9|266KB/s|A004-260618 [26dae539cb
+- name: 🇫🇷FR_44|118KB/s|B007-260618 [8590215ade3
+  encryption: none
+  network: ws
+  port: 443
+  server: 104.21.221.158
+  sub_tag: B007-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+- name: ❓Other_6|210KB/s [2b322b68c292]
+  cipher: aes-128-gcm
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.169
+  type: ss
+  udp: true
+- name: 🇺🇸US_40|206KB/s|A004-260618 [1feecb3b9b0
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 107.155.57.11
+  server: 98.98.79.198
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 🇫🇷FR_7|210KB/s|M002-260618 [d6e9223fb686
-  encryption: none
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #3'
   network: ws
-  port: 8080
-  server: 104.18.35.86
-  sub_tag: M002-260618
+  port: 443
+  server: 104.18.41.86
+  servername: ccc.010304.xyz
+  tls: true
   type: vless
   udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /sg-melbi
-  xudp: true
-  packet-encoding: xudp
+      Host: ccc.010304.xyz
+    path: /
 - name: ❓Other_17|208KB/s|M002-260618 [acadee615
   network: ws
   port: 2082
@@ -4034,171 +4121,6 @@ proxies:
     path: /fp
   xudp: true
   packet-encoding: xudp
-- name: 🇮🇳IN_1|368KB/s|B007-260618 [403ae48696dd
-  encryption: none
-  network: ws
-  port: 2082
-  server: 172.64.150.28
-  sub_tag: B007-260618
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /fp
-  xudp: true
-  packet-encoding: xudp
-  servername: hhlfy.twiladaphne.ndjp.net
-- name: ❓Other_54|172KB/s|A004-260618 [ed0ca8afa
-  network: ws
-  port: 8080
-  server: 104.16.215.234
-  sub_tag: A004-260618
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-  packet-encoding: xudp
-  servername: hhlfy.twiladaphne.ndjp.net
-- name: ❓Other_57|124KB/s|S004-260618 [4e3ddc5e9
-  encryption: none
-  network: ws
-  port: 8080
-  server: 172.64.150.43
-  sub_tag: S004-260618
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /sg-melbi
-  xudp: true
-  packet-encoding: xudp
-  servername: 'hhlfy.twiladaphne.ndjp.net '
-- name: 🇫🇷FR_13|169KB/s|A004-260618 [b0afd74c484
-  network: ws
-  port: 8080
-  server: 104.18.0.181
-  sub_tag: A004-260618
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-- name: 🇺🇸US_21|263KB/s|A004-260618 [0e40b52615a
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.151.182.197
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- name: 🇺🇸US_39|223KB/s|A004-260618 [d92318afee0
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 79.110.54.250
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- name: 🇺🇸US_35|226KB/s|A004-260618 [100cc461209
-  alterId: 0
-  cipher: auto
-  network: tcp
-  port: 48111
-  server: 129.146.143.80
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-  xudp: true
-  packet-encoding: xudp
-  servername: 129.146.143.80
-- name: ❓Other_6|210KB/s [2b322b68c292]
-  cipher: aes-128-gcm
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.169
-  type: ss
-  udp: true
-- name: 🇨🇦CA_3|288KB/s|C002-260622 [272f831caaeb
-  alterId: '0'
-  cipher: auto
-  network: raw
-  port: 18000
-  server: 23.162.200.198
-  skip-cert-verify: false
-  sub_tag: C002-260622
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-  packet-encoding: xudp
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.112.13
-  skip-cert-verify: false
-  sni: blog.unlockyourfuturefindyourperfectcareer.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.112.121
-  sni: www.unlockyourfuturefindyourperfectcareer.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: 🇨🇦[www.v2nodes.com] ss-CA-1557...
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.222.136.236
-  type: ss
-- name: 🇺🇸US_33|154KB/s|M003-260806 [c41b3254bf9
-  alterId: '0'
-  cipher: auto
-  network: ws
-  port: 443
-  server: 104.17.136.198
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    max-early-data: 2048
-    path: /ws
-  xudp: true
-  packet-encoding: xudp
-  servername: vmess.lbw666.dpdns.org
-- name: 🇺🇸US_40|206KB/s|A004-260618 [1feecb3b9b0
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 98.98.79.198
-  sub_tag: A004-260618
-  type: ss
-  udp: true
 - name: 🇺🇸US_41|606KB/s|A004-260618 [b62cf4f7c9b
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -4207,123 +4129,6 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 美国 264
-  type: vmess
-  network: tcp
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  tls: false
-  alterId: 0
-  cipher: auto
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #8 #2'
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.155.158
-  skip-cert-verify: true
-  sni: resources.nextjobopportunityandclaimyouridealrole.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #9'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.155.176
-  sni: blog.nextjobopportunityandclaimyouridealrole.com
-  type: trojan
-- name: 🇺🇸US_32|494KB/s|A004-260618 [fbf86199a31
-  alterId: 0
-  cipher: auto
-  network: ws
-  port: 80
-  server: cf.0sm.com
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-  xudp: true
-  packet-encoding: xudp
-  servername: vmess.lbw666.dpdns.org
-- name: 🇺🇸US_13|102KB/s|A004-260618 [1e912f7933a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  port: 18000
-  server: 67.220.85.46
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-  packet-encoding: xudp
-  servername: 67.220.85.46
-- name: 美国 267
-  type: vmess
-  network: tcp
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  udp: true
-  alterId: 0
-  cipher: auto
-- client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  network: tcp
-  port: 18580
-  server: us007.zestapp778.com
-  servername: us007.zestapp778.com
-  tls: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 🇺🇸US_43|154KB/s|A004-260618 [f66afddf08b
-  alterId: 0
-  cipher: auto
-  network: ws
-  port: 80
-  server: 104.17.147.222
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-  xudp: true
-  packet-encoding: xudp
-  servername: vmess.lbw666.dpdns.org
-- name: 🇺🇸US_50|333KB/s|A004-260618 [f7c0f859dfc
-  client-fingerprint: chrome
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.156.42
-  skip-cert-verify: true
-  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  sub_tag: A004-260618
-  type: trojan
-  udp: true
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #10'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.156.212
-  sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  type: trojan
-- cipher: aes-128-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-5141...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
 - name: 🇺🇸US_2|283KB/s|S004-260618 [73238075f25a
   encryption: none
   network: ws
@@ -4340,12 +4145,167 @@ proxies:
     path: /usserver
   xudp: true
   packet-encoding: xudp
-- name: 🇯🇵JP_1|280KB/s|A004-260618 [460717d25156
+- name: 美国 264
+  type: vmess
+  network: tcp
+  server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  tls: false
+  alterId: 0
+  cipher: auto
+- cipher: aes-256-gcm
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1557...
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  type: ss
+- name: 美国 267
+  type: vmess
+  network: tcp
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  udp: true
+  alterId: 0
+  cipher: auto
+- name: 🇺🇸US_38|572KB/s|A004-260618 [399f506ba4a
+  network: ws
+  port: 14430
+  server: 45.138.100.248
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  ws-opts:
+    headers:
+      Host: 45.138.100.248
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /vless
+  xudp: true
+  packet-encoding: xudp
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #10'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.156.212
+  sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  type: trojan
+- name: ❓Other_9|266KB/s|A004-260618 [26dae539cb
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- name: 🇺🇸US_50|333KB/s|A004-260618 [f7c0f859dfc
+  client-fingerprint: chrome
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.156.42
+  skip-cert-verify: true
+  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- name: 🇺🇸US_39|223KB/s|A004-260618 [d92318afee0
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 79.110.54.250
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- name: 🇺🇸US_21|263KB/s|A004-260618 [0e40b52615a
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.151.182.197
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- name: ❓Other_74|275KB/s|R002-260618 [314365b88
+  cipher: auto
+  network: none
+  port: 57259
+  server: 169.128.83.4
+  sub_tag: R002-260618
+  tls: false
+  type: vless
+  uuid: a1962f23-f8f8-412d-f2ce-3361e7b72889
+  udp: true
+- name: ❓Other_1|69KB/s|C002-260622 [a26831edf59
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  port: 18000
+  server: 169.197.142.22
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: '🇺🇸 美国 | USA #7 #2'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.7
+  skip-cert-verify: true
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.13
+  skip-cert-verify: false
+  sni: blog.unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.121
+  sni: www.unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇬🇧[www.v2nodes.com] ss-GB-1602...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.206.9
+  type: ss
+- name: ❓Other_28|276KB/s|A003-260618 [2b02c3d10
   cipher: aes-128-gcm
   password: shadowsocks
   port: 443
-  server: 149.22.87.240
-  sub_tag: A004-260618
+  server: 158.173.20.208
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- name: ❓Other_29|189KB/s|C002-260622 [bd938769e
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.156
+  sub_tag: C002-260622
+  type: ss
+  udp: true
+- name: 🇳🇱NL_7|231KB/s|M001-260618 [f241e5428cf7
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.61
+  sub_tag: M001-260618
   type: ss
   udp: true
 proxy-groups:
@@ -4354,8 +4314,9 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🇺🇸 美国节点
-  - 🇯🇵 日本节点
   - 🇸🇬 新加坡节点
+  - 🇬🇧 英国节点
+  - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -4364,46 +4325,46 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies: &id001
-  - 🇺🇸US_10|76KB/s|B007-260618 [2713784692c5
-  - 🇫🇷FR_6|572KB/s|A004-260618 [bdfccd5c19e1
-  - ❓未知丨yoyapai.com (54)
-  - 🇫🇷FR_44|118KB/s|B007-260618 [8590215ade3
-  - ❓Other_23|355KB/s|A004-260618 [17e99393b
-  - '🇸🇬 新加坡 | SGP #3'
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 9
-  - 🇫🇷FR_45|569KB/s|B007-260618 [23561ce89fb
-  - ❓Other_9|266KB/s|A004-260618 [26dae539cb
-  - 🇫🇷FR_7|210KB/s|M002-260618 [d6e9223fb686
-  - ❓Other_17|208KB/s|M002-260618 [acadee615
+  - '🇺🇸[www.v2nodes.com] trojan-US-... #9'
   - 🇮🇳IN_1|368KB/s|B007-260618 [403ae48696dd
-  - ❓Other_54|172KB/s|A004-260618 [ed0ca8afa
-  - ❓Other_57|124KB/s|S004-260618 [4e3ddc5e9
   - 🇫🇷FR_13|169KB/s|A004-260618 [b0afd74c484
-  - 🇺🇸US_21|263KB/s|A004-260618 [0e40b52615a
-  - 🇺🇸US_39|223KB/s|A004-260618 [d92318afee0
-  - 🇺🇸US_35|226KB/s|A004-260618 [100cc461209
-  - ❓Other_6|210KB/s [2b322b68c292]
+  - 🇫🇷FR_7|210KB/s|M002-260618 [d6e9223fb686
+  - ❓Other_23|355KB/s|A004-260618 [17e99393b
+  - 🇫🇷FR_6|572KB/s|A004-260618 [bdfccd5c19e1
+  - 🇺🇸 美国 | USA 9
+  - ❓Other_54|172KB/s|A004-260618 [ed0ca8afa
   - 🇨🇦CA_3|288KB/s|C002-260622 [272f831caaeb
+  - ❓未知丨yoyapai.com (54)
+  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
+  - 🇺🇸 美国 | USA 3
+  - ❓Other_57|124KB/s|S004-260618 [4e3ddc5e9
+  - 🇫🇷FR_45|569KB/s|B007-260618 [23561ce89fb
+  - 🇫🇷FR_44|118KB/s|B007-260618 [8590215ade3
+  - ❓Other_6|210KB/s [2b322b68c292]
+  - 🇺🇸US_40|206KB/s|A004-260618 [1feecb3b9b0
+  - '🇸🇬 新加坡 | SGP #3'
+  - ❓Other_17|208KB/s|M002-260618 [acadee615
+  - 🇺🇸US_41|606KB/s|A004-260618 [b62cf4f7c9b
+  - 🇺🇸US_2|283KB/s|S004-260618 [73238075f25a
+  - 美国 264
+  - 🇨🇦[www.v2nodes.com] ss-CA-1557...
+  - 美国 267
+  - 🇺🇸US_38|572KB/s|A004-260618 [399f506ba4a
+  - '🇺🇸[www.v2nodes.com] trojan-US-... #10'
+  - ❓Other_9|266KB/s|A004-260618 [26dae539cb
+  - 🇺🇸US_50|333KB/s|A004-260618 [f7c0f859dfc
+  - 🇺🇸US_39|223KB/s|A004-260618 [d92318afee0
+  - 🇺🇸US_21|263KB/s|A004-260618 [0e40b52615a
+  - ❓Other_74|275KB/s|R002-260618 [314365b88
+  - ❓Other_1|69KB/s|C002-260622 [a26831edf59
+  - '🇺🇸 美国 | USA #7 #2'
+  - '🇺🇸[www.v2nodes.com] trojan-US-... #8'
   - '🇺🇸[www.v2nodes.com] trojan-US-... #4'
   - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
-  - 🇨🇦[www.v2nodes.com] ss-CA-1557...
-  - 🇺🇸US_33|154KB/s|M003-260806 [c41b3254bf9
-  - 🇺🇸US_40|206KB/s|A004-260618 [1feecb3b9b0
-  - 🇺🇸US_41|606KB/s|A004-260618 [b62cf4f7c9b
-  - 美国 264
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #8 #2'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #9'
-  - 🇺🇸US_32|494KB/s|A004-260618 [fbf86199a31
-  - 🇺🇸US_13|102KB/s|A004-260618 [1e912f7933a
-  - 美国 267
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  - 🇺🇸US_43|154KB/s|A004-260618 [f66afddf08b
-  - 🇺🇸US_50|333KB/s|A004-260618 [f7c0f859dfc
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #10'
-  - 🇯🇵[www.v2nodes.com] ss-JP-5141...
-  - 🇺🇸US_2|283KB/s|S004-260618 [73238075f25a
-  - 🇯🇵JP_1|280KB/s|A004-260618 [460717d25156
+  - 🇬🇧[www.v2nodes.com] ss-GB-1602...
+  - ❓Other_28|276KB/s|A003-260618 [2b02c3d10
+  - ❓Other_29|189KB/s|C002-260622 [bd938769e
+  - 🇳🇱NL_7|231KB/s|M001-260618 [f241e5428cf7
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -4413,36 +4374,24 @@ proxy-groups:
 - name: 🇺🇸 美国节点
   type: url-test
   proxies:
-  - 🇺🇸US_10|76KB/s|B007-260618 [2713784692c5
-  - 🇺🇸 美国 | USA 3
+  - '🇺🇸[www.v2nodes.com] trojan-US-... #9'
   - 🇺🇸 美国 | USA 9
-  - 🇺🇸US_21|263KB/s|A004-260618 [0e40b52615a
-  - 🇺🇸US_39|223KB/s|A004-260618 [d92318afee0
-  - 🇺🇸US_35|226KB/s|A004-260618 [100cc461209
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #4'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
-  - 🇺🇸US_33|154KB/s|M003-260806 [c41b3254bf9
+  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸US_40|206KB/s|A004-260618 [1feecb3b9b0
   - 🇺🇸US_41|606KB/s|A004-260618 [b62cf4f7c9b
-  - 美国 264
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #8 #2'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #9'
-  - 🇺🇸US_32|494KB/s|A004-260618 [fbf86199a31
-  - 🇺🇸US_13|102KB/s|A004-260618 [1e912f7933a
-  - 美国 267
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  - 🇺🇸US_43|154KB/s|A004-260618 [f66afddf08b
-  - 🇺🇸US_50|333KB/s|A004-260618 [f7c0f859dfc
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #10'
   - 🇺🇸US_2|283KB/s|S004-260618 [73238075f25a
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-- name: 🇯🇵 日本节点
-  type: url-test
-  proxies:
-  - 🇯🇵[www.v2nodes.com] ss-JP-5141...
-  - 🇯🇵JP_1|280KB/s|A004-260618 [460717d25156
+  - 美国 264
+  - 美国 267
+  - 🇺🇸US_38|572KB/s|A004-260618 [399f506ba4a
+  - '🇺🇸[www.v2nodes.com] trojan-US-... #10'
+  - 🇺🇸US_50|333KB/s|A004-260618 [f7c0f859dfc
+  - 🇺🇸US_39|223KB/s|A004-260618 [d92318afee0
+  - 🇺🇸US_21|263KB/s|A004-260618 [0e40b52615a
+  - '🇺🇸 美国 | USA #7 #2'
+  - '🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  - '🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -4453,14 +4402,28 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
+- name: 🇬🇧 英国节点
+  type: url-test
+  proxies:
+  - 🇬🇧[www.v2nodes.com] ss-GB-1602...
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+- name: 🇳🇱 荷兰节点
+  type: url-test
+  proxies:
+  - 🇳🇱NL_7|231KB/s|M001-260618 [f241e5428cf7
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
 - name: 🇫🇷 法国节点
   type: url-test
   proxies:
-  - 🇫🇷FR_6|572KB/s|A004-260618 [bdfccd5c19e1
-  - 🇫🇷FR_44|118KB/s|B007-260618 [8590215ade3
-  - 🇫🇷FR_45|569KB/s|B007-260618 [23561ce89fb
-  - 🇫🇷FR_7|210KB/s|M002-260618 [d6e9223fb686
   - 🇫🇷FR_13|169KB/s|A004-260618 [b0afd74c484
+  - 🇫🇷FR_7|210KB/s|M002-260618 [d6e9223fb686
+  - 🇫🇷FR_6|572KB/s|A004-260618 [bdfccd5c19e1
+  - 🇫🇷FR_45|569KB/s|B007-260618 [23561ce89fb
+  - 🇫🇷FR_44|118KB/s|B007-260618 [8590215ade3
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -4475,14 +4438,18 @@ proxy-groups:
 - name: 🏳️ 其他地区
   type: url-test
   proxies:
-  - ❓未知丨yoyapai.com (54)
-  - ❓Other_23|355KB/s|A004-260618 [17e99393b
-  - ❓Other_9|266KB/s|A004-260618 [26dae539cb
-  - ❓Other_17|208KB/s|M002-260618 [acadee615
   - 🇮🇳IN_1|368KB/s|B007-260618 [403ae48696dd
+  - ❓Other_23|355KB/s|A004-260618 [17e99393b
   - ❓Other_54|172KB/s|A004-260618 [ed0ca8afa
+  - ❓未知丨yoyapai.com (54)
   - ❓Other_57|124KB/s|S004-260618 [4e3ddc5e9
   - ❓Other_6|210KB/s [2b322b68c292]
+  - ❓Other_17|208KB/s|M002-260618 [acadee615
+  - ❓Other_9|266KB/s|A004-260618 [26dae539cb
+  - ❓Other_74|275KB/s|R002-260618 [314365b88
+  - ❓Other_1|69KB/s|C002-260622 [a26831edf59
+  - ❓Other_28|276KB/s|A003-260618 [2b02c3d10
+  - ❓Other_29|189KB/s|C002-260622 [bd938769e
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -4491,8 +4458,9 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🇺🇸 美国节点
-  - 🇯🇵 日本节点
   - 🇸🇬 新加坡节点
+  - 🇬🇧 英国节点
+  - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -4502,8 +4470,9 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🇺🇸 美国节点
-  - 🇯🇵 日本节点
   - 🇸🇬 新加坡节点
+  - 🇬🇧 英国节点
+  - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -4513,8 +4482,9 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🇺🇸 美国节点
-  - 🇯🇵 日本节点
   - 🇸🇬 新加坡节点
+  - 🇬🇧 英国节点
+  - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -4524,16 +4494,17 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🇺🇸 美国节点
-  - 🇯🇵 日本节点
   - 🇸🇬 新加坡节点
+  - 🇬🇧 英国节点
   - DIRECT
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🇺🇸 美国节点
-  - 🇯🇵 日本节点
   - 🇸🇬 新加坡节点
+  - 🇬🇧 英国节点
+  - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -4575,8 +4546,9 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇺🇸 美国节点
-  - 🇯🇵 日本节点
   - 🇸🇬 新加坡节点
+  - 🇬🇧 英国节点
+  - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
