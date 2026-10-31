@@ -1,5 +1,5 @@
 # 由 fetch_validate.py 自动生成 —— 节点经过内核真实握手验证
-# 生成时间 2026-11-01 00:21:32  可用节点 40 个
+# 生成时间 2026-11-01 00:31:08  可用节点 40 个
 mixed-port: 7890
 allow-lan: false
 bind-address: '*'
@@ -40,7 +40,9 @@ dns:
   proxy-server-nameserver:
   - https://doh.pub/dns-query
   nameserver-policy:
-    geosite:cn,private: 223.5.5.5,119.29.29.29
+    geosite:cn,private:
+    - 223.5.5.5
+    - 119.29.29.29
 tun:
   enable: false
   stack: mixed
