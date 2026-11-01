@@ -1,5 +1,5 @@
 # 由 fetch_validate.py 自动生成 —— 节点经过内核真实握手验证
-# 生成时间 2026-11-01 12:23:32  可用节点 40 个
+# 生成时间 2026-11-01 18:24:10  可用节点 40 个
 mixed-port: 7890
 allow-lan: false
 bind-address: '*'
@@ -3859,86 +3859,36 @@ rules:
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 proxies:
-- client-fingerprint: chrome
-  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
-  network: tcp
-  port: 56984
-  server: sg1.zestapp778.com
-  servername: sg1.zestapp778.com
+- name: 🇫🇷FR_45|569KB/s|B007-260618 [23561ce89fb
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  port: 443
+  server: 104.18.47.73
+  sub_tag: B007-260618
   tls: true
   type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- name: 🇺🇸 美国 | USA 3
-  server: 107.172.16.232
-  port: 44444
-  type: hysteria2
-  password: 78585441-c8b3-40fb-9b94-15edd312fdcf
-  auth: 78585441-c8b3-40fb-9b94-15edd312fdcf
-  sni: www.bing.com
-  skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|2.3MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-  udp: true
-- name: 🇯🇵[www.v2nodes.com] trojan-JP-...
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  type: trojan
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
 - cipher: aes-256-gcm
   name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #3'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #6'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
+- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #1'
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
+  type: trojan
 - type: trojan
   name: 🇺🇸_US_美国_IPV4 (2)
   server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
@@ -3948,15 +3898,149 @@ proxies:
   servername: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   skip-cert-verify: true
-- type: trojan
-  name: 🇰🇷_KR_韩国_IPV4
-  server: 3.34.91.121
-  port: 12308
-  password: 3637190e-4ce3-41cd-9425-f5676345b38c
+- type: vless
+  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
+  server: edge.bookmai.com
+  port: 443
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
   tls: true
-  servername: kr02.ulifeai.com
-  sni: kr02.ulifeai.com
+  servername: mother-earth.fyi
+  sni: mother-earth.fyi
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 🇨🇭CH_3|3.0MB/s
+  server: 179.43.170.84
+  port: 443
+  type: vless
+  uuid: 8007dda2-aed2-4514-8299-6e3edbdb015b
+  tls: true
+  udp: true
+  sni: si2.greenzone12.com
+  servername: si2.greenzone12.com
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: hyOYRfDSIYyqALQt3N2H0RjK8gbV1JvPTkNACC4PJF8
+    short-id: 8718c58d3d51db59
+- name: 🇭🇰 香港 | HKG 3
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
   skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #11'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2917886-1bf3-4588-913f-8909a4b40792
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- cipher: aes-256-gcm
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  port: 18443
+  server: 46.17.46.27
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1602...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+- type: vless
+  name: 🇳🇱NL荷兰丨yoyapai.com (2)
+  server: c20s5.portablesubmarines.com
+  port: 443
+  uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: portal.citygrainla.com
+  sni: portal.citygrainla.com
+  skip-cert-verify: false
+  client-fingerprint: qq
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: 051f20c2344a2dfd
+- name: 🇳🇱NL-109.104.153.43-0287
+  server: 109.104.153.43
+  port: 33336
+  type: ssr
+  cipher: chacha20-ietf
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇵🇹 葡萄牙 | PRT
+  server: 50.7.43.117
+  port: 443
+  type: vless
+  uuid: b24ad12f-f6ce-4f0b-a264-d58a76104026
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: trN5x0amt2YuVzF2vZnK294YBAuh_zl5QkZjPyWz-TI
+    short-id: 8718c58d3d51db59
+  servername: pt3.magazinnarubeva.ru
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 巴西 031
+  type: vless
+  network: ws
+  server: 200.165.231.209
+  port: 443
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  servername: wstg.datasynctrue.online
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+    path: /api/connect
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #12'
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9ff358e-20c4-4979-bc14-acc3daaf1297
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
 - type: vless
   name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4 (2)
   server: 9.247.23.209
@@ -3971,39 +4055,33 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - alpn:
-  - h3
-  client-fingerprint: edge
-  name: '🇩🇪 德国 | DEU #2'
-  network: xhttp
-  port: 443
-  server: 151.101.131.6
-  servername: apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
-  xhttp-opts:
-    host: kkbr.tm
-    mode: auto
-    path: /crownnet
-- name: 🇳🇱NL-78.142.194.96-6086
-  server: nl-1.tr202607.com
-  port: 443
-  type: trojan
-  password: LSS6HLnp7IeEEJUcox
-  skip-cert-verify: false
-- name: 巴西 011
-  type: vless
-  network: tcp
-  server: 179.253.179.109
-  port: 50083
-  uuid: 268fac1e-bb07-4d6c-8942-92fef4d7ede1
-  servername: 177.3.219.252
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
+  - http/1.1
   client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #14'
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: abd924f4-132d-4ad3-ac2a-3aa01b8e5923
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- name: 🇩🇪 德国 | DEU 2
+  server: 9.247.54.68
+  port: 443
+  type: hysteria2
+  password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
+  auth: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
+  sni: nl1.obxodvpn.us
+  up: 100
+  down: 200
+  skip-cert-verify: true
+  alpn:
+  - h3
+  udp: true
 - name: 🇩🇪 德国 | DEU
   server: 151.101.67.6
   port: 443
@@ -4021,31 +4099,62 @@ proxies:
     mode: auto
   udp: true
 - alpn:
-  - http/1.1
-  - h2
-  client-fingerprint: qq
-  name: 🇵🇱[www.v2nodes.com] vless-PL-1...
-  network: tcp
+  - h3
+  client-fingerprint: edge
+  name: '🇩🇪 德国 | DEU #2'
+  network: xhttp
   port: 443
-  server: 87.242.119.253
-  servername: hvtlr-ru-47sb.fade.mom
+  server: 151.101.131.6
+  servername: apps.apple.com
   tls: true
   type: vless
-  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
+  udp: true
+  uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
+  xhttp-opts:
+    host: kkbr.tm
+    mode: auto
+    path: /crownnet
+- client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #1 #2'
+  network: tcp
+  port: 63080
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
   ws-opts:
     path: /
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #5'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #18'
   network: ws
-  password: humanity
-  port: 2053
-  server: 185.114.72.31
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb199167-16d6-45d0-aadb-314cab5a4e72
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- alpn:
+  - h3
+  auth: 69e41e64-a832-471a-b740-94577ca85520
+  down: 200
+  name: 🇺🇸 美国 | USA 7
+  password: 69e41e64-a832-471a-b740-94577ca85520
+  port: 443
+  server: 217.60.73.56
+  skip-cert-verify: true
+  sni: forshynewh.duckdns.org
+  type: hysteria2
+  udp: true
+  up: 100
 - name: 🇪🇪 爱沙尼亚 | EST
   server: 179.253.179.109
   port: 57043
@@ -4056,107 +4165,15 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇩🇪 德国 | DEU 2
-  server: 9.247.54.68
-  port: 443
-  type: hysteria2
-  password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
-  auth: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
-  sni: nl1.obxodvpn.us
-  up: 100
-  down: 200
-  skip-cert-verify: true
-  alpn:
-  - h3
-  udp: true
-- name: 巴西 031
-  type: vless
-  network: ws
-  server: 200.165.231.209
-  port: 443
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  servername: wstg.datasynctrue.online
-  skip-cert-verify: false
+- type: trojan
+  name: 🇰🇷_KR_韩国_IPV4
+  server: 3.34.91.121
+  port: 12308
+  password: 3637190e-4ce3-41cd-9425-f5676345b38c
   tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: wstg.datasynctrue.online
-    path: /api/connect
-- name: 🇩🇪 29
-  server: 162.159.197.1
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-  udp: true
-- name: 🇰🇿 哈萨克斯坦+V2CROSS.COM
-  server: 95.56.251.12
-  port: 47443
-  type: vless
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-  tls: true
-  udp: true
-  sni: kz1.waspnest.space
-  servername: kz1.waspnest.space
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
-    short-id: ae97223a8f799877
-- name: 美国 232
-  type: trojan
-  network: ws
-  server: 104.17.121.71
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇯🇵 78
-  server: 13.231.221.179
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.cordweave.com
+  servername: kr02.ulifeai.com
+  sni: kr02.ulifeai.com
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-  udp: true
-- type: vless
-  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
-  server: edge.bookmai.com
-  port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 🇭🇰 香港 | HKG 3
-  password: 0324fbc29561
-  port: 443
-  server: 56481.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
 - name: 美国 849
   type: vmess
   network: ws
@@ -4171,48 +4188,64 @@ proxies:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
-- name: ProxyPool | 🇳🇱 荷兰 | NLD 2
-  server: 200.169.184.168
-  port: 443
-  type: vless
-  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: QnaizqXrXA0e4XihP_5Nf1z1aOOf0obBoyJ8QY_03kw
-    short-id: 9d0e1b6bf9c5eddb
-  servername: net.formatgo.ru
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇮🇳 印度 | IND
-  server: hydra.yokkastars.com
-  port: 2443
-  type: vless
-  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
-  tls: true
-  reality-opts:
-    public-key: h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg
-    short-id: 92c32de179e5d908
-  servername: deepl.com
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: rex-eb0bf76b710ce763
-  udp: true
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #1'
+- cipher: aes-256-gcm
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #7'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #9'
   network: ws
-  password: humanity
   port: 443
-  server: 185.220.100.168
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e836302b-2ab2-4286-b584-c1dcf2c2e6a0
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- name: 美国 824
+  type: vmess
+  network: ws
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #21'
+  network: ws
+  port: 443
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2957d7ed-4697-4dda-8939-0caf7a0e93af
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -4225,75 +4258,108 @@ proxies:
   sni: bing.com
   type: hysteria
   up: 11 Mbps
-- name: 美国 222
-  type: trojan
-  network: ws
-  server: 162.159.253.41
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
 - alpn:
-  - h3
-  auth: 69e41e64-a832-471a-b740-94577ca85520
-  down: 200
-  name: 🇺🇸 美国 | USA 7
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  port: 443
-  server: 217.60.73.56
-  skip-cert-verify: true
-  sni: forshynewh.duckdns.org
-  type: hysteria2
-  udp: true
-  up: 100
-- name: 美国 048
-  type: trojan
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #10'
   network: ws
-  server: 88.218.92.205
   port: 443
-  password: humanity
-  skip-cert-verify: true
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
   udp: true
-  sni: www.cordweave.com
+  uuid: 7797f4a9-cf0b-4e07-a496-235897575512
   ws-opts:
     headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 🇱🇺 卢森堡 | LUX
-  server: 176.108.242.55
-  port: 443
-  type: vless
-  uuid: 4f4e8129-56ae-4b6e-baeb-ebdd07d8b2c5
-  tls: true
-  alpn:
-  - h2
-  servername: lm.centermass.net
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /media/playback/v1/SessionGateway
-    mode: packet-up
-    x-padding-bytes: 100-1000
-  udp: true
-- name: 🇳🇱NL_7|1.0MB/s
-  server: app-mi-26.spbstudentlife.com
-  port: 443
-  type: vless
-  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
-  tls: true
-  udp: true
-  sni: assets-mi-26.spbstudentlife.com
-  servername: assets-mi-26.spbstudentlife.com
-  flow: xtls-rprx-vision
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- alpn:
+  - http/1.1
   client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #16'
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1220c563-30a8-46bd-9264-052d7ba92e7d
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #17'
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7eeeaa43-4ffd-4223-88a6-484a2be9cb95
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: '🇸🇪 瑞典 | SWE #1'
   network: tcp
-  reality-opts:
-    public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
-    short-id: a7856800c2deb7b2
+  port: 54083
+  server: 179.253.179.109
+  servername: 177.3.215.54
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ef03752-c8bf-4482-8710-e563ca4808f9
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #5'
+  network: ws
+  port: 443
+  server: 151.101.65.242
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0d03e44f-f60f-41b6-8ad7-13445af164fd
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- name: 巴西 011
+  type: vless
+  network: tcp
+  server: 179.253.179.109
+  port: 50083
+  uuid: 268fac1e-bb07-4d6c-8942-92fef4d7ede1
+  servername: 177.3.219.252
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #24'
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e43b6051-ee86-43c0-a073-3601f8d3e248
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -4303,7 +4369,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇰🇷 韩国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
@@ -4314,46 +4379,46 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies: &id001
-  - '🇺🇸 美国 | USA #1'
-  - 🇺🇸_US_美国_IPV4 (2)
-  - 🇰🇷_KR_韩国_IPV4
+  - '🇮🇹 意大利 | ITA #2'
   - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
-  - '🇺🇸 美国 | USA #6'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
-  - 🇪🇪 爱沙尼亚 | EST
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
   - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4 (2)
-  - '🇺🇸 美国 | USA #3'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - 🇰🇿 哈萨克斯坦+V2CROSS.COM
-  - 🇺🇸 美国 | USA 3
-  - 巴西 011
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  - 🇱🇺 卢森堡 | LUX
-  - 🇩🇪 德国 | DEU
-  - ProxyPool | 🇳🇱 荷兰 | NLD 2
-  - '🇩🇪 德国 | DEU #2'
+  - 🇳🇱NL荷兰丨yoyapai.com (2)
+  - '🇺🇸 美国 | USA #14'
+  - '🇺🇸 美国 | USA #12'
+  - 🇵🇹 葡萄牙 | PRT
+  - '🇺🇸 美国 | USA #11'
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇺🇸 美国 | USA #21'
+  - 🇨🇭CH_3|3.0MB/s
   - 🇺🇸 美国 | USA 7
-  - 🇮🇹IT_1|2.3MB/s
-  - https://github.com/*********-*...
-  - 美国 849
-  - 🇩🇪 德国 | DEU 2
-  - 🇳🇱NL_7|1.0MB/s
-  - 🇮🇳 印度 | IND
   - 🇭🇰 香港 | HKG 3
-  - 🇵🇱[www.v2nodes.com] vless-PL-1...
-  - 🇸🇬[www.v2nodes.com] vless-SG-1...
-  - 🇯🇵[www.v2nodes.com] trojan-JP-...
-  - 🇳🇱NL-78.142.194.96-6086
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #5'
+  - 🇮🇹[www.v2nodes.com] ss-IT-1602...
+  - 🇺🇸_US_美国_IPV4 (2)
+  - '🇺🇸 美国 | USA #18'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #7'
+  - '🇺🇸 美国 | USA #17'
+  - '🇺🇸 美国 | USA #16'
+  - '🇺🇸 美国 | USA #9'
+  - '🇺🇸 美国 | USA #24'
+  - 🇩🇪 德国 | DEU 2
+  - '🇺🇸 美国 | USA #5'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  - 美国 849
+  - '🇺🇸 美国 | USA #10'
+  - 美国 824
+  - https://github.com/*********-*...
+  - '🇩🇪 德国 | DEU #1 #2'
+  - '🇸🇪 瑞典 | SWE #1'
+  - '🇩🇪 德国 | DEU #2'
+  - 🇩🇪 德国 | DEU
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇰🇷_KR_韩国_IPV4
+  - 巴西 011
+  - 🇫🇷FR_45|569KB/s|B007-260618 [23561ce89fb
+  - '🇯🇵[www.v2nodes.com] trojan-JP-... #1'
+  - 🇳🇱NL-109.104.153.43-0287
   - 巴西 031
-  - 🇩🇪 29
-  - 美国 232
-  - 🇯🇵 78
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #1'
-  - 美国 222
-  - 美国 048
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -4363,18 +4428,18 @@ proxy-groups:
 - name: ⚡ 高速节点
   type: url-test
   proxies:
-  - '🇺🇸 美国 | USA #1'
-  - 🇺🇸_US_美国_IPV4 (2)
-  - 🇰🇷_KR_韩国_IPV4
+  - '🇮🇹 意大利 | ITA #2'
   - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
-  - '🇺🇸 美国 | USA #6'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
-  - 🇪🇪 爱沙尼亚 | EST
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
   - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4 (2)
-  - '🇺🇸 美国 | USA #3'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - 🇰🇿 哈萨克斯坦+V2CROSS.COM
+  - 🇳🇱NL荷兰丨yoyapai.com (2)
+  - '🇺🇸 美国 | USA #14'
+  - '🇺🇸 美国 | USA #12'
+  - 🇵🇹 葡萄牙 | PRT
+  - '🇺🇸 美国 | USA #11'
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇺🇸 美国 | USA #21'
+  - 🇨🇭CH_3|3.0MB/s
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -4388,31 +4453,29 @@ proxy-groups:
 - name: 🇺🇸 美国节点
   type: url-test
   proxies:
-  - '🇺🇸 美国 | USA #1'
-  - 🇺🇸_US_美国_IPV4 (2)
-  - '🇺🇸 美国 | USA #6'
-  - '🇺🇸 美国 | USA #3'
-  - 🇺🇸 美国 | USA 3
+  - '🇺🇸 美国 | USA #14'
+  - '🇺🇸 美国 | USA #12'
+  - '🇺🇸 美国 | USA #11'
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇺🇸 美国 | USA #21'
   - 🇺🇸 美国 | USA 7
+  - 🇺🇸_US_美国_IPV4 (2)
+  - '🇺🇸 美国 | USA #18'
+  - '🇺🇸 美国 | USA #17'
+  - '🇺🇸 美国 | USA #16'
+  - '🇺🇸 美国 | USA #9'
+  - '🇺🇸 美国 | USA #24'
+  - '🇺🇸 美国 | USA #5'
   - 美国 849
-  - 美国 232
-  - 美国 222
-  - 美国 048
+  - '🇺🇸 美国 | USA #10'
+  - 美国 824
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇯🇵 日本节点
   type: url-test
   proxies:
-  - 🇯🇵[www.v2nodes.com] trojan-JP-...
-  - 🇯🇵 78
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-- name: 🇸🇬 新加坡节点
-  type: url-test
-  proxies:
-  - 🇸🇬[www.v2nodes.com] vless-SG-1...
+  - '🇯🇵[www.v2nodes.com] trojan-JP-... #1'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -4428,46 +4491,42 @@ proxy-groups:
   proxies:
   - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
   - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4 (2)
-  - 🇩🇪 德国 | DEU
-  - '🇩🇪 德国 | DEU #2'
   - 🇩🇪 德国 | DEU 2
-  - 🇩🇪 29
+  - '🇩🇪 德国 | DEU #1 #2'
+  - '🇩🇪 德国 | DEU #2'
+  - 🇩🇪 德国 | DEU
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇳🇱 荷兰节点
   type: url-test
   proxies:
-  - ProxyPool | 🇳🇱 荷兰 | NLD 2
-  - 🇳🇱NL_7|1.0MB/s
-  - 🇳🇱NL-78.142.194.96-6086
+  - 🇳🇱NL荷兰丨yoyapai.com (2)
+  - 🇳🇱NL-109.104.153.43-0287
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇫🇷 法国节点
   type: url-test
   proxies:
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #5'
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #1'
+  - 🇫🇷FR_45|569KB/s|B007-260618 [23561ce89fb
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🏳️ 其他地区
   type: url-test
   proxies:
+  - '🇮🇹 意大利 | ITA #2'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  - 🇵🇹 葡萄牙 | PRT
+  - 🇨🇭CH_3|3.0MB/s
+  - 🇮🇹[www.v2nodes.com] ss-IT-1602...
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #7'
   - '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
-  - 🇪🇪 爱沙尼亚 | EST
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - 🇰🇿 哈萨克斯坦+V2CROSS.COM
-  - 巴西 011
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  - 🇱🇺 卢森堡 | LUX
-  - 🇮🇹IT_1|2.3MB/s
   - https://github.com/*********-*...
-  - 🇮🇳 印度 | IND
-  - 🇵🇱[www.v2nodes.com] vless-PL-1...
+  - '🇸🇪 瑞典 | SWE #1'
+  - 🇪🇪 爱沙尼亚 | EST
+  - 巴西 011
   - 巴西 031
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -4479,7 +4538,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇰🇷 韩国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
@@ -4493,7 +4551,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇰🇷 韩国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
@@ -4507,7 +4564,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇰🇷 韩国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
@@ -4520,7 +4576,6 @@ proxy-groups:
   - 🚀 节点选择
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇩🇪 德国节点
   - DIRECT
 - name: 📲 电报信息
@@ -4531,7 +4586,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇰🇷 韩国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
@@ -4577,7 +4631,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇰🇷 韩国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
