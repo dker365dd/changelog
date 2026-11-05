@@ -1,5 +1,5 @@
 # 由 fetch_validate.py 自动生成 —— 节点经过内核真实握手验证
-# 生成时间 2026-11-05 18:24:28  可用节点 29 个
+# 生成时间 2026-11-06 00:25:38  可用节点 34 个
 mixed-port: 7890
 allow-lan: false
 bind-address: '*'
@@ -61,12 +61,12 @@ rules:
 - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
 - IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
 - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
-- DOMAIN-SUFFIX,play.googleapis.com,🚀 节点选择
-- DOMAIN-SUFFIX,play-fe.googleapis.com,🚀 节点选择
-- DOMAIN-SUFFIX,play-lh.googleusercontent.com,🚀 节点选择
-- DOMAIN,dl.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,dl.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
+- DOMAIN-SUFFIX,play.googleapis.com,🔍 谷歌
+- DOMAIN-SUFFIX,play-fe.googleapis.com,🔍 谷歌
+- DOMAIN-SUFFIX,play-lh.googleusercontent.com,🔍 谷歌
+- DOMAIN,dl.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,dl.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,services.googleapis.cn,🔍 谷歌
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
@@ -1885,78 +1885,78 @@ rules:
 - DOMAIN-SUFFIX,tonec.com,🍃 应用净化
 - DOMAIN-SUFFIX,registeridm.com,🍃 应用净化
 - DOMAIN,star.tonec.com,🍃 应用净化
-- DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt4-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt5-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt6-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
-- DOMAIN,mtalk.google.com,📢 谷歌FCM
-- DOMAIN,alt1.mobile-gtalk.l.google.com,📢 谷歌FCM
-- DOMAIN,alt2.mobile-gtalk.l.google.com,📢 谷歌FCM
-- DOMAIN,alt3.mobile-gtalk.l.google.com,📢 谷歌FCM
-- DOMAIN,alt4.mobile-gtalk.l.google.com,📢 谷歌FCM
-- DOMAIN,alt5.mobile-gtalk.l.google.com,📢 谷歌FCM
-- DOMAIN,alt6.mobile-gtalk.l.google.com,📢 谷歌FCM
-- DOMAIN,alt7.mobile-gtalk.l.google.com,📢 谷歌FCM
-- DOMAIN,alt8.mobile-gtalk.l.google.com,📢 谷歌FCM
-- DOMAIN,mobile-gtalk.l.google.com,📢 谷歌FCM
-- IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,64.233.188.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,64.233.189.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.23.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.24.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.28.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.127.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.137.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,142.250.31.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,142.250.96.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.217.194.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.217.218.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.217.219.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.253.63.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,172.253.122.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
-- IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
+- DOMAIN,alt1-mtalk.google.com,🔍 谷歌
+- DOMAIN,alt2-mtalk.google.com,🔍 谷歌
+- DOMAIN,alt3-mtalk.google.com,🔍 谷歌
+- DOMAIN,alt4-mtalk.google.com,🔍 谷歌
+- DOMAIN,alt5-mtalk.google.com,🔍 谷歌
+- DOMAIN,alt6-mtalk.google.com,🔍 谷歌
+- DOMAIN,alt7-mtalk.google.com,🔍 谷歌
+- DOMAIN,alt8-mtalk.google.com,🔍 谷歌
+- DOMAIN,mtalk.google.com,🔍 谷歌
+- DOMAIN,alt1.mobile-gtalk.l.google.com,🔍 谷歌
+- DOMAIN,alt2.mobile-gtalk.l.google.com,🔍 谷歌
+- DOMAIN,alt3.mobile-gtalk.l.google.com,🔍 谷歌
+- DOMAIN,alt4.mobile-gtalk.l.google.com,🔍 谷歌
+- DOMAIN,alt5.mobile-gtalk.l.google.com,🔍 谷歌
+- DOMAIN,alt6.mobile-gtalk.l.google.com,🔍 谷歌
+- DOMAIN,alt7.mobile-gtalk.l.google.com,🔍 谷歌
+- DOMAIN,alt8.mobile-gtalk.l.google.com,🔍 谷歌
+- DOMAIN,mobile-gtalk.l.google.com,🔍 谷歌
+- IP-CIDR,64.233.177.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,64.233.186.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,64.233.187.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,64.233.188.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,64.233.189.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,74.125.23.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,74.125.24.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,74.125.28.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,74.125.127.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,74.125.137.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,74.125.203.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,74.125.204.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,74.125.206.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,108.177.125.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,142.250.4.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,142.250.10.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,142.250.31.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,142.250.96.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,172.217.194.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,172.217.218.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,172.217.219.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,172.253.63.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,172.253.122.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,173.194.175.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,173.194.218.188/32,🔍 谷歌,no-resolve
+- IP-CIDR,209.85.233.188/32,🔍 谷歌,no-resolve
 - DOMAIN-SUFFIX,265.com,🚀 节点选择
 - DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
-- DOMAIN-SUFFIX,alt1-mtalk.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,alt2-mtalk.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,alt3-mtalk.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,alt4-mtalk.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,alt5-mtalk.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,alt6-mtalk.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,alt7-mtalk.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,alt8-mtalk.google.com,🚀 节点选择
+- DOMAIN-SUFFIX,alt1-mtalk.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,alt2-mtalk.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,alt3-mtalk.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,alt4-mtalk.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,alt5-mtalk.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,alt6-mtalk.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,alt7-mtalk.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,alt8-mtalk.google.com,🔍 谷歌
 - DOMAIN-SUFFIX,app-measurement.com,🚀 节点选择
-- DOMAIN-SUFFIX,cache.pack.google.com,🚀 节点选择
+- DOMAIN-SUFFIX,cache.pack.google.com,🔍 谷歌
 - DOMAIN-SUFFIX,clickserve.dartsearch.net,🚀 节点选择
 - DOMAIN-SUFFIX,crl.pki.goog,🚀 节点选择
-- DOMAIN-SUFFIX,dl.l.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,googletagmanager.com,🚀 节点选择
-- DOMAIN-SUFFIX,googletagservices.com,🚀 节点选择
+- DOMAIN-SUFFIX,dl.l.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,googletagmanager.com,🔍 谷歌
+- DOMAIN-SUFFIX,googletagservices.com,🔍 谷歌
 - DOMAIN-SUFFIX,gtm.oasisfeng.com,🚀 节点选择
-- DOMAIN-SUFFIX,mtalk.google.com,🚀 节点选择
+- DOMAIN-SUFFIX,mtalk.google.com,🔍 谷歌
 - DOMAIN-SUFFIX,ocsp.pki.goog,🚀 节点选择
 - DOMAIN-SUFFIX,recaptcha.net,🚀 节点选择
-- DOMAIN-SUFFIX,safebrowsing-cache.google.com,🚀 节点选择
+- DOMAIN-SUFFIX,safebrowsing-cache.google.com,🔍 谷歌
 - DOMAIN-SUFFIX,settings.crashlytics.com,🚀 节点选择
-- DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,toolbarqueries.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,tools.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,tools.l.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🚀 节点选择
+- DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,toolbarqueries.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,tools.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,tools.l.google.com,🔍 谷歌
+- DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🔍 谷歌
 - DOMAIN,csgo.wmsj.cn,🎯 全球直连
 - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
 - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -2518,7 +2518,7 @@ rules:
 - DOMAIN-KEYWORD,fbcdn,🚀 节点选择
 - DOMAIN-KEYWORD,github,🚀 节点选择
 - DOMAIN-KEYWORD,gmail,🚀 节点选择
-- DOMAIN-KEYWORD,google,🚀 节点选择
+- DOMAIN-KEYWORD,google,🔍 谷歌
 - DOMAIN-KEYWORD,instagram,🚀 节点选择
 - DOMAIN-KEYWORD,porn,🚀 节点选择
 - DOMAIN-KEYWORD,sci-hub,🚀 节点选择
@@ -2692,8 +2692,8 @@ rules:
 - DOMAIN-SUFFIX,g.co,🚀 节点选择
 - DOMAIN-SUFFIX,ggpht.com,🚀 节点选择
 - DOMAIN-SUFFIX,goo.gl,🚀 节点选择
-- DOMAIN-SUFFIX,googleapis.cn,🚀 节点选择
-- DOMAIN-SUFFIX,googleapis.com,🚀 节点选择
+- DOMAIN-SUFFIX,googleapis.cn,🔍 谷歌
+- DOMAIN-SUFFIX,googleapis.com,🔍 谷歌
 - DOMAIN-SUFFIX,gstatic.cn,🚀 节点选择
 - DOMAIN-SUFFIX,gstatic.com,🚀 节点选择
 - DOMAIN-SUFFIX,gvt0.com,🚀 节点选择
@@ -3637,51 +3637,137 @@ rules:
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 proxies:
-- name: '14'
-  server: 120.48.133.162
-  port: 10086
-  type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
+- type: vless
+  name: 🇭🇰HK香港丨yoyapai.com (16)
+  server: 152.175.6.229
+  port: 31884
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
-- name: '13'
-  server: 120.48.133.162
-  port: 10086
-  type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
-- name: 🇫🇷FR_118|491KB/s|S004-260618 [81d4ee6635
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: epam.com
-  sub_tag: S004-260618
   tls: true
-  type: vless
+  servername: hk010.zestapp778.com
+  sni: hk010.zestapp778.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- cipher: aes-256-gcm
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+- cipher: aes-256-gcm
+  name: '🏳[www.v2nodes.com] ss- #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
   udp: true
-  uuid: af51de90-852d-4eb6-a0c3-9ecca170385e
-  ws-opts:
-    headers:
-      Host: wallweb-av6.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: wallweb-av6.pages.dev
+- cipher: aes-256-gcm
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- name: 🇺🇸US_752|1.2MB/s|A001-260618 [3d6c87814f
+  client-fingerprint: chrome
+  password: 5t6i121em5lkmsmk
+  port: 57277
+  server: us001.zestapp778.com
+  skip-cert-verify: true
+  sni: us001.zestapp778.com
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+  network: tcp
+- cipher: aes-256-gcm
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- name: 🇸🇪 瑞典 | SWE
+  server: 138.124.86.230
+  port: 48115
+  type: vless
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  tls: true
+  servername: 138-124-86-230.sslip.io
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 138-124-86-230-sslip-io
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
+  password: BeaUf9c0AEWH40Pu
+  port: 8388
+  server: 154.36.158.197
+  type: ss
+- name: '🇺🇸 美国 | USA 4 #2'
+  server: 107.172.214.195
+  port: 443
+  type: vless
+  uuid: 2af77824-f83d-4f50-9dd0-560bb6e7cd45
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: jK8yu9AMtNQ4J_uKE1inAzJr6V5J4GNK3sAN6nZBbUo
+  servername: academy.nvidia.com
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- cipher: aes-256-gcm
+  name: '🏳[www.v2nodes.com] ss- #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- name: 🇺🇸 美国 | USA 2
+  server: 154.12.47.231
+  port: 8443
+  type: vless
+  uuid: e146651d-c782-4823-bd7a-9eb4841f64a8
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: eb5O54Y8XyINkCJCG64GWRZYYRHqQS4mgXRI2ttGdG4
+    short-id: 792fad366e4a06c3
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- type: hysteria
+  name: 🇫🇷_FR_法国_IPV4 (2)
+  server: 163.172.117.163
+  port: 36699
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - cipher: aes-256-gcm
   name: 🇮🇹[www.v2nodes.com] ss-IT-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -3703,174 +3789,6 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
-- type: vless
-  name: 🇭🇰HK香港丨yoyapai.com (16)
-  server: 152.175.6.229
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  servername: hk010.zestapp778.com
-  sni: hk010.zestapp778.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 | ARE 2
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20123
-  server: Sclass-00.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: '🇦🇪 阿联酋 | ARE #2'
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20123
-  server: sclass-00.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #5'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #6'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-- type: trojan
-  name: 🇺🇸_US_美国_IPV4 (2)
-  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  port: 443
-  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
-  tls: true
-  servername: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  skip-cert-verify: true
-- name: 🇫🇮FI_32|1.1MB/s|B007-260618 [fd28304585c
-  client-fingerprint: chrome
-  network: ws
-  password: gHQP0D7D15
-  port: 2053
-  server: 172.67.118.45
-  skip-cert-verify: true
-  sni: marvdasht.phonecomparisonblog.org
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-  udp: true
-- name: 🇨🇦 CA VMESS-18 | free-nodes
-  server: guanwang.awsno.com
-  port: 443
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vless
-  name: 🇯🇵JP日本丨yoyapai.com (4)
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- type: hysteria
-  name: 🇫🇷_FR_法国_IPV4 (2)
-  server: 163.172.117.163
-  port: 36699
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: vless
-  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_IPV4
-  server: 87.232.88.27
-  port: 443
-  uuid: e08d9bc5-6832-4dd4-bd44-d9bbe61e5817
-  tls: true
-  servername: max.ru
-  sni: max.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
-    short-id: '04'
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-67
-- type: hysteria
-  name: 🇫🇷_FR_法国_IPV4
-  server: 62.210.28.175
-  port: 24667
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (4)
   server: 198.200.57.142
@@ -3885,20 +3803,20 @@ proxies:
   up: '11'
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
-- name: 美国 398
-  type: vmess
-  network: ws
-  server: www.shopify.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 137.175.82.44
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  skip-cert-verify: true
+  password: dongtaiwang.com
   tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - type: hysteria
   name: '🇺🇸_US_美国_IPV4 (2) #2'
   server: 137.175.82.43
@@ -3913,60 +3831,35 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- name: 🇩🇪 德国 | DEU 5
-  server: 5.83.129.90
-  port: 54177
-  type: hysteria
-  auth_str: dongtaiwang.com
-  auth-str: dongtaiwang.com
-  up: 500
-  down: 1000
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- type: vless
-  name: ❓未知丨yoyapai.com (20)
-  server: jp.sofast.live
-  port: 52683
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- type: hysteria
-  name: '🇩🇪_DE_德国_IPV4 #2'
-  server: 5.83.129.90
-  port: 54177
-  password: dongtaiwang.com
+- name: 🇨🇦 CA VMESS-03 | free-nodes
+  server: guanwang.awsno.com
+  port: 443
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: apple.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #4'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 🇫🇮FI_12|1.5MB/s|B007-260618 [819f981b89c
+  client-fingerprint: chrome
+  network: ws
+  password: gHQP0D7D15
+  port: 2053
+  server: 104.25.239.113
+  skip-cert-verify: false
+  sni: marvdasht.phonecomparisonblog.org
+  sub_tag: B007-260618
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -3976,7 +3869,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇩🇪 德国节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -3985,36 +3877,29 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies: &id001
-  - '🇮🇹 意大利 | ITA #5'
+  - 🇸🇪 瑞典 | SWE
   - 🇮🇹[www.v2nodes.com] ss-IT-1602...
   - '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - '🇮🇹 意大利 | ITA #6'
-  - 🇺🇸_US_美国_IPV4 (2)
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
-  - '🇮🇹 意大利 | ITA #4'
-  - 🇦🇪 阿联酋 | ARE 2
-  - '🇦🇪 阿联酋 | ARE #2'
-  - 🇫🇷_FR_法国_IPV4 (2)
-  - '🇮🇹 意大利 | ITA #1'
-  - '🇩🇪_DE_德国_IPV4 #2'
-  - 🇺🇸_US_美国_IPV4 (4)
-  - 🇩🇪 德国 | DEU 5
-  - 🇫🇷_FR_法国_IPV4
-  - 🇨🇦 CA VMESS-18 | free-nodes
-  - 美国 398
-  - '🇺🇸_US_美国_IPV4 (2) #2'
-  - 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
-  - ❓未知丨yoyapai.com (20)
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_IPV4
-  - 🇯🇵JP日本丨yoyapai.com (4)
-  - '🇨🇿 捷克 | CZE #1'
-  - '14'
-  - '13'
-  - 🇫🇷FR_118|491KB/s|S004-260618 [81d4ee6635
+  - '🏳[www.v2nodes.com] ss- #2'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  - '🇺🇸 美国 | USA 4 #2'
+  - 🇺🇸US_752|1.2MB/s|A001-260618 [3d6c87814f
   - 🇭🇰HK香港丨yoyapai.com (16)
-  - 🇫🇮FI_32|1.1MB/s|B007-260618 [fd28304585c
+  - 🇺🇸 美国 | USA 2
+  - 🇺🇸_US_美国_IPV4 (4)
+  - 🇫🇷_FR_法国_IPV4 (2)
   - 🇺🇸_US_美国_IPV4 (3)
-  url: http://www.gstatic.com/generate_204
+  - '🇺🇸_US_美国_IPV4 (2) #2'
+  - '🇮🇹 意大利 | ITA #1'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  - '🏳[www.v2nodes.com] ss- #1'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  - 🇯🇵[www.v2nodes.com] ss-JP-1599...
+  - '🇨🇿 捷克 | CZE #1'
+  - 🇨🇦 CA VMESS-03 | free-nodes
+  - 🇫🇮FI_12|1.5MB/s|B007-260618 [819f981b89c
+  url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: ☑️ 手动切换
@@ -4023,90 +3908,77 @@ proxy-groups:
 - name: ⚡ 高速节点
   type: url-test
   proxies:
-  - '🇮🇹 意大利 | ITA #5'
+  - 🇸🇪 瑞典 | SWE
   - 🇮🇹[www.v2nodes.com] ss-IT-1602...
   - '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - '🇮🇹 意大利 | ITA #6'
-  - 🇺🇸_US_美国_IPV4 (2)
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
-  - '🇮🇹 意大利 | ITA #4'
-  - 🇦🇪 阿联酋 | ARE 2
-  - '🇦🇪 阿联酋 | ARE #2'
+  - '🏳[www.v2nodes.com] ss- #2'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  - '🇺🇸 美国 | USA 4 #2'
+  - 🇺🇸US_752|1.2MB/s|A001-260618 [3d6c87814f
+  - 🇭🇰HK香港丨yoyapai.com (16)
+  - 🇺🇸 美国 | USA 2
+  - 🇺🇸_US_美国_IPV4 (4)
   - 🇫🇷_FR_法国_IPV4 (2)
-  - '🇮🇹 意大利 | ITA #1'
-  - '🇩🇪_DE_德国_IPV4 #2'
-  url: http://www.gstatic.com/generate_204
+  - 🇺🇸_US_美国_IPV4 (3)
+  url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇭🇰 香港节点
   type: url-test
   proxies:
   - 🇭🇰HK香港丨yoyapai.com (16)
-  url: http://www.gstatic.com/generate_204
+  url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇺🇸 美国节点
   type: url-test
   proxies:
-  - 🇺🇸_US_美国_IPV4 (2)
+  - '🇺🇸 美国 | USA 4 #2'
+  - 🇺🇸US_752|1.2MB/s|A001-260618 [3d6c87814f
+  - 🇺🇸 美国 | USA 2
   - 🇺🇸_US_美国_IPV4 (4)
-  - 美国 398
-  - '🇺🇸_US_美国_IPV4 (2) #2'
-  - 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_IPV4
   - 🇺🇸_US_美国_IPV4 (3)
-  url: http://www.gstatic.com/generate_204
+  - '🇺🇸_US_美国_IPV4 (2) #2'
+  url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇯🇵 日本节点
   type: url-test
   proxies:
-  - 🇯🇵JP日本丨yoyapai.com (4)
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-- name: 🇩🇪 德国节点
-  type: url-test
-  proxies:
-  - '🇩🇪_DE_德国_IPV4 #2'
-  - 🇩🇪 德国 | DEU 5
-  url: http://www.gstatic.com/generate_204
+  - 🇯🇵[www.v2nodes.com] ss-JP-1599...
+  url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇫🇷 法国节点
   type: url-test
   proxies:
   - 🇫🇷_FR_法国_IPV4 (2)
-  - 🇫🇷_FR_法国_IPV4
-  - 🇫🇷FR_118|491KB/s|S004-260618 [81d4ee6635
-  url: http://www.gstatic.com/generate_204
+  url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇨🇦 加拿大节点
   type: url-test
   proxies:
-  - 🇨🇦 CA VMESS-18 | free-nodes
-  url: http://www.gstatic.com/generate_204
+  - 🇨🇦 CA VMESS-03 | free-nodes
+  url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🏳️ 其他地区
   type: url-test
   proxies:
-  - '🇮🇹 意大利 | ITA #5'
+  - 🇸🇪 瑞典 | SWE
   - 🇮🇹[www.v2nodes.com] ss-IT-1602...
   - '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - '🇮🇹 意大利 | ITA #6'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
-  - '🇮🇹 意大利 | ITA #4'
-  - 🇦🇪 阿联酋 | ARE 2
-  - '🇦🇪 阿联酋 | ARE #2'
+  - '🏳[www.v2nodes.com] ss- #2'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
   - '🇮🇹 意大利 | ITA #1'
-  - ❓未知丨yoyapai.com (20)
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  - '🏳[www.v2nodes.com] ss- #1'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
   - '🇨🇿 捷克 | CZE #1'
-  - '14'
-  - '13'
-  - 🇫🇮FI_32|1.1MB/s|B007-260618 [fd28304585c
-  url: http://www.gstatic.com/generate_204
+  - 🇫🇮FI_12|1.5MB/s|B007-260618 [819f981b89c
+  url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 📹 油管视频
@@ -4116,7 +3988,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇩🇪 德国节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -4128,7 +3999,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇩🇪 德国节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -4140,7 +4010,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇩🇪 德国节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -4151,35 +4020,28 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸_US_美国_IPV4 (2)
-  - 🇫🇷_FR_法国_IPV4 (2)
-  - '🇩🇪_DE_德国_IPV4 #2'
+  - '🇺🇸 美国 | USA 4 #2'
+  - 🇺🇸US_752|1.2MB/s|A001-260618 [3d6c87814f
+  - 🇺🇸 美国 | USA 2
   - 🇺🇸_US_美国_IPV4 (4)
-  - 🇩🇪 德国 | DEU 5
-  - 🇫🇷_FR_法国_IPV4
-  - '🇺🇸_US_美国_IPV4 (2) #2'
-  - 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_IPV4
-  - 🇯🇵JP日本丨yoyapai.com (4)
-  - 🇫🇷FR_118|491KB/s|S004-260618 [81d4ee6635
+  - 🇫🇷_FR_法国_IPV4 (2)
   - 🇺🇸_US_美国_IPV4 (3)
-  - '🇮🇹 意大利 | ITA #5'
+  - '🇺🇸_US_美国_IPV4 (2) #2'
+  - 🇯🇵[www.v2nodes.com] ss-JP-1599...
+  - 🇸🇪 瑞典 | SWE
   - 🇮🇹[www.v2nodes.com] ss-IT-1602...
   - '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
-  - '🇮🇹 意大利 | ITA #6'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
-  - '🇮🇹 意大利 | ITA #4'
-  - 🇦🇪 阿联酋 | ARE 2
-  - '🇦🇪 阿联酋 | ARE #2'
-  - '🇮🇹 意大利 | ITA #1'
-  - 🇨🇦 CA VMESS-18 | free-nodes
-  - 美国 398
-  - ❓未知丨yoyapai.com (20)
-  - '🇨🇿 捷克 | CZE #1'
-  - '14'
-  - '13'
+  - '🏳[www.v2nodes.com] ss- #2'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
   - 🇭🇰HK香港丨yoyapai.com (16)
-  - 🇫🇮FI_32|1.1MB/s|B007-260618 [fd28304585c
+  - '🇮🇹 意大利 | ITA #1'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  - '🏳[www.v2nodes.com] ss- #1'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  - '🇨🇿 捷克 | CZE #1'
+  - 🇨🇦 CA VMESS-03 | free-nodes
+  - 🇫🇮FI_12|1.5MB/s|B007-260618 [819f981b89c
 - name: 🤖 OpenAi
   type: select
   proxies:
@@ -4187,7 +4049,24 @@ proxy-groups:
   - 🚀 节点选择
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇩🇪 德国节点
+  - DIRECT
+- name: 🔍 谷歌专线
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies: *id001
+- name: 🔍 谷歌
+  type: select
+  proxies:
+  - 🔍 谷歌专线
+  - 🚀 节点选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇫🇷 法国节点
+  - 🇨🇦 加拿大节点
+  - 🏳️ 其他地区
   - DIRECT
 - name: 📲 电报信息
   type: select
@@ -4197,7 +4076,6 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇩🇪 德国节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
@@ -4206,17 +4084,28 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
+  - ⚡ 高速节点
   - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇫🇷 法国节点
+  - 🇨🇦 加拿大节点
+  - 🏳️ 其他地区
 - name: 🍎 苹果服务
   type: select
   proxies:
   - DIRECT
+  - ⚡ 高速节点
   - 🚀 节点选择
-- name: 📢 谷歌FCM
-  type: select
-  proxies:
-  - DIRECT
-  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇫🇷 法国节点
+  - 🇨🇦 加拿大节点
+  - 🏳️ 其他地区
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -4241,7 +4130,195 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇩🇪 德国节点
   - 🇫🇷 法国节点
   - 🇨🇦 加拿大节点
+  - 🏳️ 其他地区
+�� | POL #1'
+  - '🇮🇹 意大利 | ITA #2'
+  - '🏳[www.v2nodes.com] ss- #2'
+  - 🇸🇪 瑞典 | SWE
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  - 🇲🇽MX_9|742KB/s|M003-260806 [52f0a5a9b5a7
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  - '🇮🇹 意大利 | ITA #1'
+  - ❓未知丨yoyapai.com (20)
+  - '13'
+  - '14'
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+- name: 📹 油管视频
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇬🇧 英国节点
+  - 🇩🇪 德国节点
+  - 🇫🇷 法国节点
+  - 🏳️ 其他地区
+  - DIRECT
+- name: 🎥 奈飞视频
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇬🇧 英国节点
+  - 🇩🇪 德国节点
+  - 🇫🇷 法国节点
+  - 🏳️ 其他地区
+  - DIRECT
+- name: 🌍 国外媒体
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇬🇧 英国节点
+  - 🇩🇪 德国节点
+  - 🇫🇷 法国节点
+  - 🏳️ 其他地区
+  - DIRECT
+- name: 🤖 OpenAi 专线
+  type: url-test
+  url: https://chatgpt.com/cdn-cgi/trace
+  interval: 300
+  tolerance: 100
+  proxies:
+  - 🇺🇸US_752|1.2MB/s|A001-260618 [3d6c87814f
+  - 🇺🇸 美国 | USA 2
+  - 🇺🇸_US_美国_IPV4 (4)
+  - '🇺🇸_US_美国_IPV4 (2) #2'
+  - 🇫🇷_FR_法国_IPV4 (2)
+  - 🇩🇪 德国 | DEU
+  - 🇫🇷_FR_法国_IPV4
+  - 🇫🇷 法国 | FRA 2
+  - '🇩🇪_DE_德国_IPV4 #2'
+  - 🇯🇵[www.v2nodes.com] ss-JP-1599...
+  - 🇯🇵JP日本丨yoyapai.com (4)
+  - '🇺🇸 美国 | USA 4 #2'
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 6
+  - 🇺🇸_US_美国_IPV4 (3)
+  - 🇺🇸US_430|255KB/s|M001-260618 [18e45c83c0
+  - '🏳[www.v2nodes.com] ss- #1'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
+  - 🇮🇹[www.v2nodes.com] ss-IT-1602...
+  - '🇵🇱 波兰 | POL #1'
+  - '🇮🇹 意大利 | ITA #2'
+  - '🏳[www.v2nodes.com] ss- #2'
+  - 🇸🇪 瑞典 | SWE
+  - '🇨🇿 捷克 | CZE #1'
+  - 英国 004
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  - 美国 398
+  - 🇲🇽MX_9|742KB/s|M003-260806 [52f0a5a9b5a7
+  - 🇭🇰HK香港丨yoyapai.com (16)
+  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  - '🇮🇹 意大利 | ITA #1'
+  - ❓未知丨yoyapai.com (20)
+  - '13'
+  - '14'
+- name: 🤖 OpenAi
+  type: select
+  proxies:
+  - 🤖 OpenAi 专线
+  - 🚀 节点选择
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇬🇧 英国节点
+  - 🇩🇪 德国节点
+  - DIRECT
+- name: 🔍 谷歌专线
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies: *id001
+- name: 🔍 谷歌
+  type: select
+  proxies:
+  - 🔍 谷歌专线
+  - 🚀 节点选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇬🇧 英国节点
+  - 🇩🇪 德国节点
+  - 🇫🇷 法国节点
+  - 🏳️ 其他地区
+  - DIRECT
+- name: 📲 电报信息
+  type: select
+  proxies:
+  - ⚡ 高速节点
+  - 🚀 节点选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇬🇧 英国节点
+  - 🇩🇪 德国节点
+  - 🇫🇷 法国节点
+  - 🏳️ 其他地区
+  - DIRECT
+- name: Ⓜ️ 微软服务
+  type: select
+  proxies:
+  - DIRECT
+  - ⚡ 高速节点
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇬🇧 英国节点
+  - 🇩🇪 德国节点
+  - 🇫🇷 法国节点
+  - 🏳️ 其他地区
+- name: 🍎 苹果服务
+  type: select
+  proxies:
+  - DIRECT
+  - ⚡ 高速节点
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇬🇧 英国节点
+  - 🇩🇪 德国节点
+  - 🇫🇷 法国节点
+  - 🏳️ 其他地区
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+- name: 🛑 全球拦截
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: 🍃 应用净化
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🎯 全球直连
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
+  - 🇬🇧 英国节点
+  - 🇩🇪 德国节点
+  - 🇫🇷 法国节点
   - 🏳️ 其他地区
