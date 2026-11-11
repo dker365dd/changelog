@@ -1,5 +1,5 @@
 # 由 fetch_validate.py 自动生成 —— 节点经过内核真实握手验证
-# 生成时间 2026-11-11 06:23:56  可用节点 40 个
+# 生成时间 2026-11-11 12:24:17  可用节点 40 个
 mixed-port: 7890
 allow-lan: false
 bind-address: '*'
@@ -3656,70 +3656,11 @@ rules:
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 proxies:
-- type: trojan
-  name: 🇯🇵_JP_日本_IPV4
-  server: 185.220.238.77
-  port: 11543
-  password: HutaoCloud
-  tls: true
-  servername: 185.220.238.77
-  sni: 185.220.238.77
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /api
-- type: vmess
-  name: 🇨🇳_CN_中国_IPV4
-  server: 39.108.113.127
-  port: 10086
-  uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
-  cipher: auto
-  alterId: 0
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-- name: US 🇺🇸 | @Raydikalx | 097B2E
-  server: 104.36.69.105
-  port: 443
-  type: vless
-  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
-  tls: true
-  udp: true
-  sni: portal.citygrainla.com
-  servername: portal.citygrainla.com
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  network: raw
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
 - cipher: aes-256-gcm
   name: '🇮🇹 意大利 | ITA #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #6'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #4'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3736,13 +3677,11 @@ proxies:
   server: 202.50.253.72
   type: ss
   udp: true
-- type: anytls
-  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
+- name: 🇺🇸 美国 | USA 9
   server: sdf65h46wr.df6h451rh.xin
   port: 443
+  type: anytls
   password: 0324fbc29561
-  tls: true
-  servername: images.ctfassets.net
   sni: images.ctfassets.net
   skip-cert-verify: true
 - cipher: aes-256-gcm
@@ -3752,71 +3691,46 @@ proxies:
   server: 202.50.253.63
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- cipher: aes-256-gcm
-  name: 意大利2|@ripaojiedian
+  name: 🇮🇹IT_2|2.8MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
+  udp: true
+- name: 🇲🇾 马来西亚 | MYS
+  server: forwarded.frnhk.xyz
+  port: 2053
+  type: anytls
+  password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
+  udp: true
+  sni: my.gosthk.site
+  skip-cert-verify: true
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  name: 🇮🇹IT_4|2.1MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
-- name: 🇸🇬SG_3|1.0MB/s
-  server: zfapi.zalolink.com
-  port: 46957
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  tls: true
   udp: true
-  sni: psstatic.cdn.bcebos.com
-  servername: psstatic.cdn.bcebos.com
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  network: tcp
-  packet-encoding: xudp
-  reality-opts:
-    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
-    short-id: 8f6683a234d3
-- name: 🇩🇪 德国 | DEU 6
-  server: ec7a81g.de15.h1clayd.click
-  port: 443
-  type: vless
-  uuid: 13e6bdfd-d51b-4e57-a40e-b88784cba8bd
+- type: trojan
+  name: 🇯🇵_JP_日本_IPV4
+  server: 185.220.238.77
+  port: 11543
+  password: HutaoCloud
   tls: true
-  reality-opts:
-    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
-    short-id: 7a8e24da4eb2c1b5
-  servername: ec7a81g.de15.h1clayd.click
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 43f41cd7fee0
+  servername: 185.220.238.77
+  sni: 185.220.238.77
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|3.4MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
   udp: true
-- alpn:
-  - h3
-  client-fingerprint: edge
-  name: '🇫🇷 法国 | FRA #2'
-  network: xhttp
-  port: 443
-  server: 151.101.36.2
-  servername: accounts.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  xhttp-opts:
-    host: oh4.global.ssl.fastly.net
-    mode: auto
-    path: /
 - name: 🇳🇱NL_174|2.2MB/s|R002-260618 [8b79f7273e
   cipher: chacha20-ietf
   obfs: tls1.2_ticket_auth
@@ -3827,131 +3741,167 @@ proxies:
   sub_tag: R002-260618
   type: ssr
   udp: true
-- name: 🇵🇱 波兰 | POL
-  server: 151.101.36.128
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇦UA_1|2.2MB/s
+  network: xhttp
+  port: 443
+  server: www.codex2api.com
+  servername: b5cb4fa7s274.kuback.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  xhttp-opts:
+    host: b5cb4fa7s274.kuback.top
+    path: 596e6bac208562ef1c25e117655ef1a6
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Forwarded-Uri
+    x-padding-key: _
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+  xudp: true
+- name: 🇪🇸ES_2|1.3MB/s
+  server: 196.196.149.80
   port: 443
   type: vless
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  tls: true
+  udp: true
+  sni: 7aa271t.es1.h1clayd.click
+  servername: 7aa271t.es1.h1clayd.click
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  network: raw
+  packet-encoding: xudp
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
+- name: 🇵🇱PL_1|2.5MB/s
+  server: 201.58.189.105
+  port: 2083
+  type: vless
+  uuid: d7ddade6-b7a0-4cab-a910-d5d5c378d98a
+  tls: true
+  udp: true
+  sni: dl.google.com
+  servername: dl.google.com
+  client-fingerprint: chrome
+  network: grpc
+  packet-encoding: xudp
+  grpc-opts:
+    grpc-service-name: google.storage.v2.Storage
+  reality-opts:
+    public-key: B7x5bYp-YhtLeH31zYcilpKFCkGTMe3jtSECSw-bMC4
+    short-id: 8bd80253
+- name: 🇺🇸 US VLESS-44 | free-nodes
+  server: s553.gogocs.xyz
+  port: 443
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   tls: true
   alpn:
-  - h3
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /
-    host: ovd7.global.ssl.fastly.net
-    mode: auto
-  udp: true
-- type: vless
-  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
-  server: edge.bookmai.com
-  port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
+  - h2
+  - http/1.1
+  tfo: false
   skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- alpn:
-  - h3
-  client-fingerprint: ios
-  name: '🇫🇷 法国 | FRA #1 #2'
+  servername: u695098u8fc3d2e1s552.xxti.top
+  client-fingerprint: firefox
   network: xhttp
-  port: 443
-  server: 151.101.36.201
-  servername: accounts.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
   xhttp-opts:
-    host: oh6.global.ssl.fastly.net
-    mode: auto
-    path: /
-- name: 🇺🇸US_685|732KB/s|M002-260618 [b0809a651e
-  cipher: chacha20-ietf
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  server: ssr2.762988.xyz
-  sub_tag: M002-260618
-  type: ssr
-  udp: true
-- name: 🇺🇸 美国 | USA 11
+    path: bba4e8e938f9ea04f6fb64f71f29a519
+    host: u695098u8fc3d2e1s552.xxti.top
+- name: 🇯🇵 JP VLESS-31 | free-nodes
+  server: s2523.fuhuovps.xyz
+  port: 443
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  tls: true
+  alpn:
+  - h2
+  - http/1.1
+  tfo: false
+  skip-cert-verify: false
+  servername: u695098u6b0550c8s2521.xxti.top
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: 356257a80f246d77bb43c7d9d7f98d05
+    host: u695098u6b0550c8s2521.xxti.top
+- name: 🇺🇸 美国 | USA 7
   server: 200.102.179.69
   port: 443
   type: vless
   uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
   tls: true
   servername: dmbdnpctq8hjxx.hat.onl
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: xhttp
   xhttp-opts:
     path: /hls/014373eq/seg
     host: dmbdnpctq8hjxx.hat.onl
     mode: auto
   udp: true
-- name: 🇨🇦CA_3|3.9MB/s
-  server: 5.53.124.191
-  port: 8008
-  type: vless
-  uuid: b48e1596-e835-4547-bdae-31daadf9ea17
-  tls: false
-  udp: true
-  sni: 5.53.124.191
-  servername: 5.53.124.191
-  network: xhttp
-  packet-encoding: xudp
-  ws-opts:
-    path: /
-- name: 🇫🇷 法国 | FRA 4
-  server: 212.69.86.159
-  port: 8447
-  type: vless
-  uuid: 52030136-eee3-4675-baae-a50f17b2bb8b
-  tls: true
-  reality-opts:
-    public-key: Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4
-    short-id: 732ef4f5320b5e19
-  servername: github.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 6
-  server: 178.176.128.203
+- name: 🇳🇱NL_8|3.3MB/s
+  server: 79.182.39.131
   port: 443
   type: vless
-  uuid: cfe4c965-5a5e-4840-bee6-5f9208236671
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  alpn:
-  - h2
-  servername: cdnapiv3.tronglob6.net
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /files/preview/
-    host: cdnapiv3.tronglob6.net
-    mode: packet-up
-    seq-key: page
-    seq-placement: query
-    session-key: tok
-    session-placement: query
-    uplink-data-placement: body
-    uplink-http-method: GET
-    x-padding-bytes: 16-64
-    x-padding-key: sig
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
   udp: true
+  sni: 717252g.nl8.h1clayd.click
+  servername: 717252g.nl8.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  packet-encoding: xudp
+  grpc-opts:
+    grpc-service-name: 204adda7e3da
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+- name: 🇫🇷FR_157|607KB/s|R002-260618 [5e89fefb46
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 104.18.1.1
+  sub_tag: R002-260618
+  tls: true
+  type: vless
+  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 1.proxy2.us.ci.
+    max-early-data: 2560
+    path: /
+  udp: true
+  servername: 1.proxy2.us.ci.
+- alpn:
+  - h3
+  client-fingerprint: edge
+  name: '🇳🇱 荷兰 | NLD #2'
+  network: xhttp
+  port: 443
+  server: 151.101.36.61
+  servername: accounts.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  xhttp-opts:
+    host: ovd10.global.ssl.fastly.net
+    mode: auto
+    path: /
 - name: 🇳🇱NL_301|4.4MB/s|B007-260618 [17d40f4e69
   alpn:
   - h2
@@ -3973,87 +3923,114 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: 94.241.172.107
-- name: 🇩🇪 德国 | DEU 5
-  server: 188.72.103.4
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
+- name: 🇫🇷 法国 | FRA 8
+  server: 151.101.36.246
   port: 443
   type: vless
-  uuid: 0000be2c-fb3a-5bce-a7d7-2105d461915b
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
   tls: true
   alpn:
-  - h2
-  - http/1.1
-  servername: cdnapi.tronglob5.net
+  - h3
+  servername: accounts.fastly.com
   client-fingerprint: edge
   network: xhttp
   xhttp-opts:
-    path: /api/account/orders/
-    host: cdnapi.tronglob5.net
-    mode: packet-up
-    no-grpc-header: true
-    seq-key: line
-    seq-placement: cookie
-    session-key: cart_sid
-    session-placement: cookie
-    uplink-data-key: X-Client-Trace
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 80-900
-    x-padding-header: X-Ab-Variant
-    x-padding-key: ab
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
+    path: /
+    host: ovd12.global.ssl.fastly.net
+    mode: auto
   udp: true
-- type: vless
-  name: 🇯🇵JP日本丨yoyapai.com (4)
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- type: vmess
-  name: '@DeltaKroneckerGithub_3021_IPV4'
-  server: 172.64.145.93
+- alpn:
+  - h3
+  client-fingerprint: edge
+  name: '🇫🇷 法国 | FRA #2'
+  network: xhttp
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vless
-  name: 🇨🇳CN中國丨yoyapai.com
-  server: jp.sofast.live
-  port: 52683
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- client-fingerprint: chrome
-  name: 🇵🇱PL_1|1.4MB/s
-  network: ws
-  port: 443
-  server: 3.169.9.125
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  skip-cert-verify: false
-  tfo: false
+  server: 151.101.36.2
+  servername: accounts.fastly.com
   tls: true
   type: vless
   udp: true
   uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  ws-opts:
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
+  xhttp-opts:
+    host: oh4.global.ssl.fastly.net
+    mode: auto
     path: /
+- name: 🇩🇪 德国 | DEU 3
+  server: 5.42.107.38
+  port: 14443
+  type: vless
+  uuid: 010be6fa-ab5f-404a-9edf-ab2db1f09f0c
+  tls: true
+  alpn:
+  - http/1.1
+  servername: germ.onlineai.pro
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /api/generate
+    headers:
+      Host: germ.onlineai.pro
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU_2|1.1MB/s
+  network: xhttp
+  port: 443
+  server: cf.090227.xyz
+  servername: 88a79b35s394.kuback.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  xhttp-opts:
+    host: 88a79b35s394.kuback.top
+    path: 97d9472949ee4f4be023f97dfea13cfa
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Forwarded-Uri
+    x-padding-key: _
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+  xudp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #4'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+- type: vless
+  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
+  server: edge.bookmai.com
+  port: 443
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mother-earth.fyi
+  sni: mother-earth.fyi
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #6'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (5)
+  name: 🇺🇸_US_美国_IPV4 (4)
   server: 198.200.57.142
   port: 22335
   password: github.com/Alvin9999-newpac/fanqiang
@@ -4066,42 +4043,8 @@ proxies:
   up: '11'
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
-- name: 🇸🇬 新加坡 | SGP
-  server: sgp.beijingshi.asia
-  port: 8443
-  type: vless
-  uuid: 14c36bd3-d631-4618-99aa-5f6c1c9f4abc
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  - h3
-  flow: xtls-rprx-vision
-  encryption: mlkem768x25519plus.native.0rtt.SBhv9qyZHRZ-dNjgM7FYWs97MXcEd8KXzMTrFc7X6Gs
-  servername: sgp.beijingshi.asia
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /
-    host: sgp.beijingshi.asia
-    mode: auto
-    x-padding-bytes: 100-1000
-  udp: true
-- alpn:
-  - h3
-  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  down: 200
-  name: 🇩🇪 德国 | DEU
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 18.153.65.67
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-  udp: true
-  up: 100
 - type: hysteria
-  name: '🇺🇸_US_美国_IPV4 #2'
+  name: '🇺🇸_US_美国_IPV4 (2) #2'
   server: 137.175.82.43
   port: 20022
   password: dongtaiwang.com
@@ -4115,21 +4058,7 @@ proxies:
   down: '20'
   auth-str: dongtaiwang.com
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)
-  server: 137.175.82.44
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: '🇫🇷_FR_法国_IPV4 #2'
+  name: 🇫🇷_FR_法国_IPV4 (2)
   server: 163.172.117.163
   port: 36699
   password: dongtaiwang.com
@@ -4142,36 +4071,128 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇨🇭 瑞士 | CHE
-  server: 157.22.185.68
-  port: 2058
-  type: vless
-  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
+- type: hysteria
+  name: '🇫🇷_FR_法国_IPV4 #2'
+  server: 62.210.28.175
+  port: 24667
+  password: dongtaiwang.com
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s
-    short-id: 937255313d6ce673
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  network: tcp
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: 🇳🇱NL_7|2.2MB/s
+  server: 717252g.nl8.h1clayd.click
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
   udp: true
+  sni: 717252g.nl8.h1clayd.click
+  servername: 717252g.nl8.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  packet-encoding: xudp
+  grpc-opts:
+    grpc-service-name: 204adda7e3da
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+- type: hysteria
+  name: 🇩🇪_DE_德国_IPV4 (2)
+  server: 5.83.129.90
+  port: 54177
+  password: dongtaiwang.com
+  tls: true
+  servername: apple.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - alpn:
   - h3
-  client-fingerprint: edge
-  name: 🇫🇷FR_1|1.8MB/s
-  network: xhttp
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇫🇷FR_3|2.9MB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.28.175
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: 🇵🇱 波兰 | POL
+  server: 188.72.103.4
   port: 443
-  server: 151.101.36.111
-  servername: accounts.fastly.com
-  tls: true
   type: vless
-  udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  uuid: 40c8a202-4b7f-45a6-b0aa-37db0fac4df8
+  tls: true
+  servername: cdn-ya.shamanapp.online
+  client-fingerprint: chrome
+  network: xhttp
   xhttp-opts:
-    host: ovd11.global.ssl.fastly.net
-    mode: auto
-    path: /
+    path: /media/hls/720p/
+    host: cdn-ya.shamanapp.online
+    mode: packet-up
+    no-grpc-header: true
+    seq-key: page
+    seq-placement: query
+    session-key: token
+    session-placement: path
+    uplink-data-key: X-Request-Id
+    uplink-data-placement: header
+    uplink-http-method: GET
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Cache
+    x-padding-key: _dc
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: header
+  udp: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 137.175.82.44
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: trojan
+  name: '🇩🇪_DE_德国_IPV4 #3'
+  server: 191.44.112.170
+  port: 443
+  password: 46d221fa-e9b4-748c-4eae-019a88e42991
+  tls: true
+  servername: orbylume.my.to
+  sni: orbylume.my.to
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tvpn-trojan/bg
+    headers:
+      Host: orbylume.my.to
+- type: vless
+  name: 🇯🇵JP日本丨yoyapai.com (4)
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -4180,57 +4201,56 @@ proxy-groups:
   - ♻️ 自动选择
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇩🇪 德国节点
+  - 🇷🇺 俄罗斯节点
   - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
-  - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
   - ☑️ 手动切换
   - DIRECT
 - name: ♻️ 自动选择
   type: url-test
   proxies: &id001
-  - 🇯🇵_JP_日本_IPV4
-  - 🇨🇳CN中國丨yoyapai.com
-  - 🇨🇳_CN_中国_IPV4
-  - '🇮🇹 意大利 | ITA #1'
-  - '🇮🇹 意大利 | ITA #4'
   - '🇮🇹 意大利 | ITA #3'
   - '🇮🇹 意大利 | ITA #6'
-  - US 🇺🇸 | @Raydikalx | 097B2E
-  - 🇸🇬SG_3|1.0MB/s
-  - 意大利|@ripaojiedian
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  - '🇮🇹 意大利 | ITA #5'
-  - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
-  - 意大利2|@ripaojiedian
+  - '🇮🇹 意大利 | ITA #1'
+  - '🇮🇹 意大利 | ITA #4'
   - '🇮🇹 意大利 | ITA #2'
+  - 🇮🇹IT_2|2.8MB/s
+  - 🇮🇹IT_4|2.1MB/s
+  - 意大利|@ripaojiedian
   - 🇳🇱NL_174|2.2MB/s|R002-260618 [8b79f7273e
-  - 🇩🇪 德国 | DEU 6
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
+  - 🇪🇸ES_2|1.3MB/s
+  - '🇳🇱 荷兰 | NLD #2'
+  - 🇺🇸 美国 | USA 7
+  - '🇮🇹 意大利 | ITA #5'
   - '🇫🇷 法国 | FRA #2'
-  - 🇺🇸 美国 | USA 11
+  - 🇮🇹IT_3|3.4MB/s
+  - 🇳🇱NL_7|2.2MB/s
+  - 🇫🇷 法国 | FRA 8
+  - 🇳🇱NL_8|3.3MB/s
+  - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
   - 🇵🇱 波兰 | POL
-  - 🇫🇷FR_1|1.8MB/s
-  - 🇺🇸US_685|732KB/s|M002-260618 [b0809a651e
-  - 🇳🇱 荷兰 | NLD 6
-  - 🇨🇦CA_3|3.9MB/s
-  - '🇫🇷 法国 | FRA #1 #2'
-  - 🇫🇷 法国 | FRA 4
-  - 🇳🇱NL_301|4.4MB/s|B007-260618 [17d40f4e69
-  - 🇨🇭 瑞士 | CHE
-  - '@DeltaKroneckerGithub_3021_IPV4'
-  - 🇩🇪 德国 | DEU 5
-  - 🇵🇱PL_1|1.4MB/s
-  - 🇩🇪 德国 | DEU
-  - '🇺🇸_US_美国_IPV4 #2'
-  - 🇺🇸_US_美国_IPV4 (5)
-  - 🇸🇬 新加坡 | SGP
-  - 🇺🇸_US_美国_IPV4 (2)
-  - 🇯🇵JP日本丨yoyapai.com (4)
+  - 🇺🇸_US_美国_IPV4 (4)
+  - 🇵🇱PL_1|2.5MB/s
+  - 🇫🇷_FR_法国_IPV4 (2)
+  - 🇲🇾 马来西亚 | MYS
+  - 🇯🇵_JP_日本_IPV4
   - '🇫🇷_FR_法国_IPV4 #2'
+  - 🇩🇪_DE_德国_IPV4 (2)
+  - 🇺🇸_US_美国_IPV4 (3)
+  - 🇺🇸 美国 | USA 9
+  - '🇺🇸_US_美国_IPV4 (2) #2'
+  - 🇫🇷FR_3|2.9MB/s
+  - 🇳🇱NL_301|4.4MB/s|B007-260618 [17d40f4e69
+  - 🇫🇷FR_157|607KB/s|R002-260618 [5e89fefb46
+  - '🇩🇪_DE_德国_IPV4 #3'
+  - 🇯🇵JP日本丨yoyapai.com (4)
+  - 🇺🇦UA_1|2.2MB/s
+  - 🇺🇸 US VLESS-44 | free-nodes
+  - 🇯🇵 JP VLESS-31 | free-nodes
+  - 🇩🇪 德国 | DEU 3
+  - 🇷🇺RU_2|1.1MB/s
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
@@ -4240,31 +4260,30 @@ proxy-groups:
 - name: ⚡ 高速节点
   type: url-test
   proxies:
-  - 🇯🇵_JP_日本_IPV4
-  - 🇨🇳CN中國丨yoyapai.com
-  - 🇨🇳_CN_中国_IPV4
-  - '🇮🇹 意大利 | ITA #1'
-  - '🇮🇹 意大利 | ITA #4'
   - '🇮🇹 意大利 | ITA #3'
   - '🇮🇹 意大利 | ITA #6'
-  - US 🇺🇸 | @Raydikalx | 097B2E
-  - 🇸🇬SG_3|1.0MB/s
+  - '🇮🇹 意大利 | ITA #1'
+  - '🇮🇹 意大利 | ITA #4'
+  - '🇮🇹 意大利 | ITA #2'
+  - 🇮🇹IT_2|2.8MB/s
+  - 🇮🇹IT_4|2.1MB/s
   - 意大利|@ripaojiedian
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  - 🇳🇱NL_174|2.2MB/s|R002-260618 [8b79f7273e
+  - 🇪🇸ES_2|1.3MB/s
+  - '🇳🇱 荷兰 | NLD #2'
+  - 🇺🇸 美国 | USA 7
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇺🇸 美国节点
   type: url-test
   proxies:
-  - US 🇺🇸 | @Raydikalx | 097B2E
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
-  - 🇺🇸 美国 | USA 11
-  - 🇺🇸US_685|732KB/s|M002-260618 [b0809a651e
-  - '🇺🇸_US_美国_IPV4 #2'
-  - 🇺🇸_US_美国_IPV4 (5)
-  - 🇺🇸_US_美国_IPV4 (2)
+  - 🇺🇸 美国 | USA 7
+  - 🇺🇸_US_美国_IPV4 (4)
+  - 🇺🇸_US_美国_IPV4 (3)
+  - 🇺🇸 美国 | USA 9
+  - '🇺🇸_US_美国_IPV4 (2) #2'
+  - 🇺🇸 US VLESS-44 | free-nodes
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
@@ -4273,14 +4292,7 @@ proxy-groups:
   proxies:
   - 🇯🇵_JP_日本_IPV4
   - 🇯🇵JP日本丨yoyapai.com (4)
-  url: https://cp.cloudflare.com/generate_204
-  interval: 300
-  tolerance: 50
-- name: 🇸🇬 新加坡节点
-  type: url-test
-  proxies:
-  - 🇸🇬SG_3|1.0MB/s
-  - 🇸🇬 新加坡 | SGP
+  - 🇯🇵 JP VLESS-31 | free-nodes
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
@@ -4288,9 +4300,16 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
-  - 🇩🇪 德国 | DEU 6
-  - 🇩🇪 德国 | DEU 5
-  - 🇩🇪 德国 | DEU
+  - 🇩🇪_DE_德国_IPV4 (2)
+  - '🇩🇪_DE_德国_IPV4 #3'
+  - 🇩🇪 德国 | DEU 3
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+- name: 🇷🇺 俄罗斯节点
+  type: url-test
+  proxies:
+  - 🇷🇺RU_2|1.1MB/s
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
@@ -4298,7 +4317,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇳🇱NL_174|2.2MB/s|R002-260618 [8b79f7273e
-  - 🇳🇱 荷兰 | NLD 6
+  - '🇳🇱 荷兰 | NLD #2'
+  - 🇳🇱NL_7|2.2MB/s
+  - 🇳🇱NL_8|3.3MB/s
   - 🇳🇱NL_301|4.4MB/s|B007-260618 [17d40f4e69
   url: https://cp.cloudflare.com/generate_204
   interval: 300
@@ -4307,39 +4328,32 @@ proxy-groups:
   type: url-test
   proxies:
   - '🇫🇷 法国 | FRA #2'
-  - 🇫🇷FR_1|1.8MB/s
-  - '🇫🇷 法国 | FRA #1 #2'
-  - 🇫🇷 法国 | FRA 4
+  - 🇫🇷 法国 | FRA 8
+  - 🇫🇷_FR_法国_IPV4 (2)
   - '🇫🇷_FR_法国_IPV4 #2'
-  url: https://cp.cloudflare.com/generate_204
-  interval: 300
-  tolerance: 50
-- name: 🇨🇦 加拿大节点
-  type: url-test
-  proxies:
-  - 🇨🇦CA_3|3.9MB/s
+  - 🇫🇷FR_3|2.9MB/s
+  - 🇫🇷FR_157|607KB/s|R002-260618 [5e89fefb46
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🏳️ 其他地区
   type: url-test
   proxies:
-  - 🇨🇳CN中國丨yoyapai.com
-  - 🇨🇳_CN_中国_IPV4
-  - '🇮🇹 意大利 | ITA #1'
-  - '🇮🇹 意大利 | ITA #4'
   - '🇮🇹 意大利 | ITA #3'
   - '🇮🇹 意大利 | ITA #6'
-  - 意大利|@ripaojiedian
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  - '🇮🇹 意大利 | ITA #5'
-  - 意大利2|@ripaojiedian
+  - '🇮🇹 意大利 | ITA #1'
+  - '🇮🇹 意大利 | ITA #4'
   - '🇮🇹 意大利 | ITA #2'
+  - 🇮🇹IT_2|2.8MB/s
+  - 🇮🇹IT_4|2.1MB/s
+  - 意大利|@ripaojiedian
+  - 🇪🇸ES_2|1.3MB/s
+  - '🇮🇹 意大利 | ITA #5'
+  - 🇮🇹IT_3|3.4MB/s
   - 🇵🇱 波兰 | POL
-  - 🇨🇭 瑞士 | CHE
-  - '@DeltaKroneckerGithub_3021_IPV4'
-  - 🇵🇱PL_1|1.4MB/s
+  - 🇵🇱PL_1|2.5MB/s
+  - 🇲🇾 马来西亚 | MYS
+  - 🇺🇦UA_1|2.2MB/s
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
@@ -4361,11 +4375,10 @@ proxy-groups:
   - 🚀 节点选择
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇩🇪 德国节点
+  - 🇷🇺 俄罗斯节点
   - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
-  - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
   - DIRECT
 - name: 🤖 OpenAi 专线
@@ -4374,46 +4387,46 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵_JP_日本_IPV4
-  - US 🇺🇸 | @Raydikalx | 097B2E
-  - 🇸🇬SG_3|1.0MB/s
-  - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
   - 🇳🇱NL_174|2.2MB/s|R002-260618 [8b79f7273e
-  - 🇩🇪 德国 | DEU 6
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
+  - '🇳🇱 荷兰 | NLD #2'
+  - 🇺🇸 美国 | USA 7
   - '🇫🇷 法国 | FRA #2'
-  - 🇺🇸 美国 | USA 11
-  - 🇫🇷FR_1|1.8MB/s
-  - 🇺🇸US_685|732KB/s|M002-260618 [b0809a651e
-  - 🇳🇱 荷兰 | NLD 6
-  - '🇫🇷 法国 | FRA #1 #2'
-  - 🇫🇷 法国 | FRA 4
-  - 🇳🇱NL_301|4.4MB/s|B007-260618 [17d40f4e69
-  - 🇩🇪 德国 | DEU 5
-  - 🇩🇪 德国 | DEU
-  - '🇺🇸_US_美国_IPV4 #2'
-  - 🇺🇸_US_美国_IPV4 (5)
-  - 🇸🇬 新加坡 | SGP
-  - 🇺🇸_US_美国_IPV4 (2)
-  - 🇯🇵JP日本丨yoyapai.com (4)
+  - 🇳🇱NL_7|2.2MB/s
+  - 🇫🇷 法国 | FRA 8
+  - 🇳🇱NL_8|3.3MB/s
+  - 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4
+  - 🇺🇸_US_美国_IPV4 (4)
+  - 🇫🇷_FR_法国_IPV4 (2)
+  - 🇯🇵_JP_日本_IPV4
   - '🇫🇷_FR_法国_IPV4 #2'
-  - 🇨🇳CN中國丨yoyapai.com
-  - 🇨🇳_CN_中国_IPV4
-  - '🇮🇹 意大利 | ITA #1'
-  - '🇮🇹 意大利 | ITA #4'
+  - 🇩🇪_DE_德国_IPV4 (2)
+  - 🇺🇸_US_美国_IPV4 (3)
+  - 🇺🇸 美国 | USA 9
+  - '🇺🇸_US_美国_IPV4 (2) #2'
+  - 🇫🇷FR_3|2.9MB/s
+  - 🇳🇱NL_301|4.4MB/s|B007-260618 [17d40f4e69
+  - 🇫🇷FR_157|607KB/s|R002-260618 [5e89fefb46
+  - '🇩🇪_DE_德国_IPV4 #3'
+  - 🇯🇵JP日本丨yoyapai.com (4)
+  - 🇺🇸 US VLESS-44 | free-nodes
+  - 🇯🇵 JP VLESS-31 | free-nodes
+  - 🇩🇪 德国 | DEU 3
   - '🇮🇹 意大利 | ITA #3'
   - '🇮🇹 意大利 | ITA #6'
-  - 意大利|@ripaojiedian
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
-  - '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
-  - '🇮🇹 意大利 | ITA #5'
-  - 意大利2|@ripaojiedian
+  - '🇮🇹 意大利 | ITA #1'
+  - '🇮🇹 意大利 | ITA #4'
   - '🇮🇹 意大利 | ITA #2'
+  - 🇮🇹IT_2|2.8MB/s
+  - 🇮🇹IT_4|2.1MB/s
+  - 意大利|@ripaojiedian
+  - 🇪🇸ES_2|1.3MB/s
+  - '🇮🇹 意大利 | ITA #5'
+  - 🇮🇹IT_3|3.4MB/s
   - 🇵🇱 波兰 | POL
-  - 🇨🇦CA_3|3.9MB/s
-  - 🇨🇭 瑞士 | CHE
-  - '@DeltaKroneckerGithub_3021_IPV4'
-  - 🇵🇱PL_1|1.4MB/s
+  - 🇵🇱PL_1|2.5MB/s
+  - 🇲🇾 马来西亚 | MYS
+  - 🇺🇦UA_1|2.2MB/s
+  - 🇷🇺RU_2|1.1MB/s
 - name: 🔍 谷歌专线
   type: url-test
   url: https://www.google.com/generate_204
@@ -4427,11 +4440,10 @@ proxy-groups:
   - 🚀 节点选择
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇩🇪 德国节点
+  - 🇷🇺 俄罗斯节点
   - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
-  - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
   - DIRECT
 - name: Ⓜ️ 微软服务
@@ -4443,11 +4455,10 @@ proxy-groups:
   - ♻️ 自动选择
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇩🇪 德国节点
+  - 🇷🇺 俄罗斯节点
   - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
-  - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
 - name: 🍎 苹果服务
   type: select
@@ -4458,11 +4469,10 @@ proxy-groups:
   - ♻️ 自动选择
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇩🇪 德国节点
+  - 🇷🇺 俄罗斯节点
   - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
-  - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
 - name: 🎯 全球直连
   type: select
@@ -4487,9 +4497,8 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇩🇪 德国节点
+  - 🇷🇺 俄罗斯节点
   - 🇳🇱 荷兰节点
   - 🇫🇷 法国节点
-  - 🇨🇦 加拿大节点
   - 🏳️ 其他地区
