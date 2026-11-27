@@ -1,5 +1,5 @@
 # 由 fetch_validate.py 自动生成 —— 节点经过内核真实握手验证
-# 生成时间 2026-11-27 06:23:24  可用节点 40 个
+# 生成时间 2026-11-27 12:23:34  可用节点 40 个
 mixed-port: 7890
 allow-lan: false
 bind-address: '*'
@@ -3659,7 +3659,7 @@ rules:
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 proxies:
-- name: 🇹🇼 🇨🇳 台湾 | TWN 3
+- name: 🇹🇼TW_2|2.8MB/s
   password: 2902c46c8493
   port: 443
   server: rtifgjdr.df6h451rh.xin
@@ -3667,141 +3667,67 @@ proxies:
   sni: docs.microsoft.com
   type: anytls
   udp: true
-- name: 🇸🇬SG_1|4.7MB/s
-  server: dddz-1-x.473221.xyz
-  port: 43113
-  type: vless
-  uuid: 5807f1c4-b50e-4ec0-8d01-274045da0da5
-  tls: true
-  udp: true
-  sni: v1-dy.ixigua.com
-  servername: v1-dy.ixigua.com
-  flow: xtls-rprx-vision
-  client-fingerprint: edge
-  network: tcp
-  packet-encoding: xudp
-  reality-opts:
-    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
-    short-id: ff2c978a0b
-- name: 🇹🇼TW_1|1.3MB/s
-  password: 2902c46c8493
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
 - cipher: chacha20-ietf-poly1305
-  name: '🇬🇧 英国 | GBR #6'
+  name: 🇭🇰[www.v2nodes.com] ss-HK-1624...
   password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
   port: 28014
   server: waic.pro.main.sys-metric-report.com
   type: ss
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇯🇵JP_1|1.1MB/s
+  network: tcp
+  port: 443
+  server: 50.7.159.242
+  servername: jp.reddotcorp.org
+  tls: true
+  type: vless
   udp: true
-- name: 🇭🇰 香港 | HKG 4
-  password: 5807f1c4-b50e-4ec0-8d01-274045da0da5
-  port: 43120
-  server: dddz-1-x.473221.xyz
-  skip-cert-verify: true
-  sni: v1-dy.ixigua.com
-  type: anytls
-  udp: true
-- name: 🇯🇵 日本 | JPN 2
-  password: c0e8e373-946f-4862-98e6-3aaf1db7b53c
-  port: 57180
-  server: media.gosthk.site
-  skip-cert-verify: true
-  sni: media.gosthk.site
-  type: anytls
-  udp: true
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
+  xudp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_9|2.9MB/s
+  name: '🇮🇹 意大利 | ITA #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #3'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #9'
+  name: 🇮🇹IT_5|1.1MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #6'
+  name: 🇮🇹IT_2|2.6MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.90
+  server: 202.50.253.36
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #7'
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.106
-  skip-cert-verify: true
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #4'
+  name: 🇮🇹IT_7|3.5MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #8'
+  name: 🇮🇹IT_8|1.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.45
+  server: 202.50.253.90
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #5'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1619... #4'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.18
+  server: 202.50.253.99
   type: ss
-  udp: true
-- name: '🇺🇸 美国 | USA #5'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.114
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #7'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #10'
+  name: 🇺🇸US_13|2.7MB/s
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -3810,70 +3736,52 @@ proxies:
   sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇳🇱NL_1|2.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: ad80d93f-8b35-4b0e-861d-128813efc7d1
-  port: 30443
-  server: 31.58.234.101
-  skip-cert-verify: false
-  sni: sync46.lernkino.online
-  type: hysteria2
-  up: ''
-- alpn:
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|1.8MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+- name: 🇪🇪 爱沙尼亚 | EST
+  server: one.alpheratzz.org
+  port: 8443
+  type: vless
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  tls: true
+  alpn:
   - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 2e7d5cf6a7e50c564bfddf62c87e02e1
-  name: 🇳🇱 荷兰 | NLD 2
-  network: grpc
-  port: 443
-  server: 98.98.132.110
-  servername: a1116.afl7t8f.com
-  tls: true
-  type: vless
+  flow: xtls-rprx-vision
+  servername: api-6b04608f.adhil.uk
+  client-fingerprint: safari
+  network: tcp
   udp: true
-  uuid: e2f43a75-e683-4d09-96e8-3ad1f2e57100
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 50a5f706c8ea4433838a207d435fbf031b008a9a
-  name: '🇳🇱 荷兰 | NLD 2 #2'
-  network: grpc
-  port: 443
-  server: 51.194.118.38
-  servername: a1259.ve8nzuk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ff1e7e1-2b5a-4e53-ae77-1516f9eb7754
-- name: 🇺🇸 美国 | USA 9
+- name: 🇺🇸US_11|2.8MB/s
   server: 156.229.167.109
   port: 8443
   type: vless
   uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
   tls: true
-  reality-opts:
-    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-    short-id: 4ad2e4e660550e43
+  udp: true
+  sni: github.githubassets.com
   servername: github.githubassets.com
   client-fingerprint: chrome
   network: tcp
+  packet-encoding: xudp
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
+- name: 英国+伦敦南岸大学
+  type: vless
+  server: 136.148.83.70
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
   udp: true
-- auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: '🇬🇧 英国 | GBR #1 #2'
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.57
+  tls: true
   skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: false
-  type: hysteria2
+  servername: aszbk-ru-78dc.my-fade.cloud
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇹IT_10|2.8MB/s
+  name: 🇮🇹IT_9|3.9MB/s
   password: 034b5d9404b79a2df62fcb77a49cf748306765448d8b5e93
   plugin: v2ray-plugin
   plugin-opts:
@@ -3885,103 +3793,45 @@ proxies:
   server: italy.astroapps.io
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇪BE_2|1.4MB/s
-  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: belgium.astroapps.io
-    mode: websocket
-    path: /7a0f74508333399db96164d7
-    tls: true
+- client-fingerprint: chrome
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  network: ws
   port: 443
-  server: belgium.astroapps.io
-  type: ss
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_1|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
-  port: 14443
-  server: 194.87.224.137
-  skip-cert-verify: false
-  sni: n37.neproxy.net
-  type: hysteria2
-  up: ''
-- name: 🇪🇪EE_1|1.5MB/s
-  server: 165.231.177.60
-  port: 443
-  type: vless
-  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
   tls: true
-  udp: true
-  sni: cab-6b07048f.ferrin.uk
-  servername: cab-6b07048f.ferrin.uk
-  client-fingerprint: safari
-  network: xhttp
-  packet-encoding: xudp
-- name: 🇺🇸US_3|1006KB/s
-  server: 3.219.184.102
-  port: 443
   type: vless
-  uuid: a5b1d16b-719b-4bd6-9d7b-fe6d84607da9
-  tls: true
-  udp: true
-  sni: fortuna.masynbazar.ru
-  servername: fortuna.masynbazar.ru
-  client-fingerprint: chrome
-  network: xhttp
-  alpn:
-  - h2
-  packet-encoding: xudp
+  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
   ws-opts:
-    path: /
     headers:
-      Host: fortuna.masynbazar.ru
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇰DK_1|3.8MB/s
-  password: c917b96e084ea67a0f21031f1284f9ee9e1d837321ce6362
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: denmark.astroapps.io
-    mode: websocket
-    path: /ad37249091fe1c6ac69e8c23
-    tls: true
-  port: 443
-  server: denmark.astroapps.io
+      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+    path: /ffad70ffdfc3bcda
+- cipher: aes-256-gcm
+  name: 🇰🇷[www.v2nodes.com] ss-KR-1624...
+  password: qpowi_vip_tunnel_2026_secure
+  port: 8388
+  server: 211.233.33.228
   type: ss
-  udp: true
-- name: 🇪🇪 爱沙尼亚 | EST
-  server: 165.231.157.126
-  port: 8443
-  type: vless
-  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-  tls: true
-  flow: xtls-rprx-vision
-  servername: api-6b04608f.adhil.uk
-  client-fingerprint: safari
+- client-fingerprint: chrome
+  name: 🇺🇸US_25|3.2MB/s
   network: tcp
-  udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  password: b0a3f86d-9db9-42df-9f4a-bf2de45a091c
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: theme.lovehk.xyz
-  skip-cert-verify: true
-  sni: theme.lovehk.xyz
-  type: anytls
+  server: 66.163.114.114
+  skip-cert-verify: false
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
   udp: true
 - down: ''
   fingerprint: ''
-  name: 🇰🇿KZ_1|1.4MB/s
+  name: 🇩🇪DE_15|1.8MB/s
   obfs: ''
   obfs-password: ''
-  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
-  port: 15443
-  server: 194.87.224.137
+  password: 030e421e-9317-4cb8-8fbe-a07a565ad3db
+  port: 443
+  server: 4f070970.con.metricdraft.tech
   skip-cert-verify: false
-  sni: n9.neproxy.net
+  sni: 4f070970.con.metricdraft.tech
   type: hysteria2
   up: ''
 - type: vless
@@ -3999,60 +3849,40 @@ proxies:
   reality-opts:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
     short-id: 8d0d0679f42ffd98
-- client-fingerprint: qq
-  name: '🇬🇧 英国 | GBR #3 #2'
-  network: tcp
-  port: 443
-  server: 136.148.83.70
-  servername: aszbk-ru-78dc.my-fade.cloud
-  tls: true
+- name: 🇩🇪DE_3|3.6MB/s
+  server: test02.electrowizard.ir
+  port: 5565
   type: vless
-  udp: true
-  uuid: 00000000-0000-0001-0000-000000000000
-  ws-opts:
-    path: /
-- type: vless
-  name: ❓未知丨yoyapai.com (44)
-  server: api.ferrin.uk
-  port: 443
-  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
-  udp: true
+  uuid: 41bcd5ea-f90c-4227-ab6f-23de50b0a226
   tls: true
-  servername: 7d1a74fd.ferrin.uk
-  sni: 7d1a74fd.ferrin.uk
-  skip-cert-verify: false
+  udp: true
+  sni: aparat.com
+  servername: aparat.com
   client-fingerprint: chrome
   network: xhttp
-  xhttp-opts:
-    path: /es
-    mode: stream-one
-- name: 🇺🇸 美国 | USA 4
-  network: ws
-  password: c48qMRRfLJ3kwD4P_XpgfIq6
-  port: 443
-  server: 3x-sub.linzhonghong.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  packet-encoding: xudp
   ws-opts:
-    path: /tjbbb7eab89c9a
-- auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 🇩🇪DE_3|2.9MB/s
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.190
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: false
-  type: hysteria2
-- name: 🇺🇸 美国 | USA 2
-  password: 1010cbba-c467-45cd-87f3-a583871f6c1a
+    path: /
+    headers:
+      Host: aparat.com
+  reality-opts:
+    public-key: MYqLevTK85yKyNkMGnghN3oFxOiRv8NGu8Jy6q9VICc
+    short-id: 2436862e3af52511
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (11)
+  server: 196.199.122.2
   port: 443
-  server: signal.lovehk.xyz
-  skip-cert-verify: true
-  sni: signal.lovehk.xyz
-  type: anytls
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
   udp: true
+  tls: true
+  servername: 7aa271t.es1.h1clayd.click
+  sni: 7aa271t.es1.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
 - type: vless
   name: US美国(mibei77.com 米贝节点分享) (9)
   server: 162.35.101.177
@@ -4070,6 +3900,241 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 99f2107b03f8
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|2.1MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+- name: 🇺🇸 美国 | USA 28
+  server: rrrrrrrr.260920-006.ccwu.cc
+  port: 443
+  type: vless
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  tls: true
+  alpn:
+  - http/1.1
+  servername: rrrrrrrr.260920-006.ccwu.cc
+  client-fingerprint: android
+  network: xhttp
+  xhttp-opts:
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+    host: rrrrrrrr.260920-006.ccwu.cc
+    mode: auto
+  udp: true
+- name: 🇺🇸 美国 | USA 30
+  server: rrr.260920-006.ccwu.cc
+  port: 443
+  type: vless
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  tls: true
+  alpn:
+  - http/1.1
+  servername: rrr.260920-006.ccwu.cc
+  client-fingerprint: android
+  network: xhttp
+  xhttp-opts:
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+    host: rrr.260920-006.ccwu.cc
+    mode: auto
+  udp: true
+- name: ProxyPool | 🇺🇸 美国 | USA 8
+  server: bbbbb.1111-08.ccwu.cc
+  port: 443
+  type: vless
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  tls: true
+  alpn:
+  - http/1.1
+  servername: bbbbb.1111-08.ccwu.cc
+  client-fingerprint: android
+  network: xhttp
+  xhttp-opts:
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+    host: bbbbb.1111-08.ccwu.cc
+    mode: auto
+  udp: true
+- name: 🇺🇸 美国 | USA 11
+  server: sssssss.260920-3.kdns.fr
+  port: 443
+  type: vless
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  tls: true
+  alpn:
+  - http/1.1
+  servername: sssssss.260920-3.kdns.fr
+  client-fingerprint: android
+  network: xhttp
+  xhttp-opts:
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+    host: sssssss.260920-3.kdns.fr
+    mode: auto
+  udp: true
+- name: 🇺🇸 美国 | USA 3
+  server: s.260920-3.kdns.fr
+  port: 443
+  type: vless
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  tls: true
+  alpn:
+  - http/1.1
+  servername: s.260920-3.kdns.fr
+  client-fingerprint: android
+  network: xhttp
+  xhttp-opts:
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+    host: s.260920-3.kdns.fr
+    mode: auto
+  udp: true
+- name: 🇺🇸 美国 | USA 24
+  server: bb.1111-08.ccwu.cc
+  port: 443
+  type: vless
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  tls: true
+  alpn:
+  - http/1.1
+  servername: bb.1111-08.ccwu.cc
+  client-fingerprint: android
+  network: xhttp
+  xhttp-opts:
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+    host: bb.1111-08.ccwu.cc
+    mode: auto
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|2.2MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- name: 🇩🇪DE_4|3.0MB/s
+  server: test03.electrowizard.ir
+  port: 5556
+  type: vless
+  uuid: 41bcd5ea-f90c-4227-ab6f-23de50b0a226
+  tls: true
+  udp: true
+  sni: aparat.com
+  servername: aparat.com
+  client-fingerprint: chrome
+  network: xhttp
+  packet-encoding: xudp
+  ws-opts:
+    path: /
+    headers:
+      Host: aparat.com
+  reality-opts:
+    public-key: JgGE6qaoYh6lQY-pZa7OD9HS3xHCTgfnnwJYpiiRHks
+    short-id: a1788b9d2bef8630
+- name: 🇳🇱 荷兰 | NLD 3
+  server: 13.141.37.245
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+  servername: 717252g.nl8.h1clayd.click
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 204adda7e3da
+  udp: true
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (8)
+  server: 196.196.148.85
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 5d0319t.nl7.h1clayd.click
+  sni: 5d0319t.nl7.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
+- name: 🇩🇪 德国 | DEU
+  server: 176.114.95.251
+  port: 443
+  type: vless
+  uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
+  tls: false
+  encryption: mlkem768x25519plus.native.0rtt.deywwZA3p0j7HoIWdGDoQdbUglXI4dyKHAOujCvK-Vk
+  network: tcp
+  udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: ss.260920-3.kdns.fr
+  port: 443
+  type: vless
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  tls: true
+  alpn:
+  - http/1.1
+  servername: ss.260920-3.kdns.fr
+  client-fingerprint: android
+  network: xhttp
+  xhttp-opts:
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+    host: ss.260920-3.kdns.fr
+    mode: auto
+  udp: true
+- type: vless
+  name: 西班牙(mibei77.com 米贝节点分享) (5)
+  server: 196.245.52.187
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 04535dt.us8.h1clayd.click
+  sni: 04535dt.us8.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: ba2a3dce62b99092
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇫🇷FR_1|3.4MB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.124.132
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- type: vless
+  name: 🇳🇱NL荷兰丨yoyapai.com (2)
+  server: 196.245.52.183
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: e60833x.nl7.h1clayd.click
+  sni: e60833x.nl7.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: jIRVNEf9SpuWP2nJrAbHGGIUnfzOmwZZlrNGw-Y-O2Q
+    short-id: 2d2598d60447a967
+  network: xhttp
+  xhttp-opts:
+    path: /d20896a4ce30
+    mode: auto
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_6|2.7MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -4079,212 +4144,219 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇹🇼 台湾节点
+  - 🇰🇷 韩国节点
   - 🇬🇧 英国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
+  - 🇫🇷 法国节点
   - 🏳️ 其他地区
   - ☑️ 手动切换
   - DIRECT
 - name: ♻️ 自动选择
   type: url-test
   proxies: &id001
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
-  - 🇹🇼TW_1|1.3MB/s
-  - 🇸🇬SG_1|4.7MB/s
-  - '🇬🇧 英国 | GBR #6'
-  - 🇭🇰 香港 | HKG 4
-  - 🇯🇵 日本 | JPN 2
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇺🇸 美国 | USA #5'
-  - '🇮🇹 意大利 | ITA #9'
-  - '🇺🇸 美国 | USA #10'
-  - 🇮🇹IT_9|2.9MB/s
-  - '🇮🇹 意大利 | ITA #3'
-  - '🇺🇸 美国 | USA #7'
-  - '🇮🇹 意大利 | ITA #7'
-  - '🇮🇹 意大利 | ITA #8'
-  - '🇮🇹 意大利 | ITA #5'
+  - 🇭🇰[www.v2nodes.com] ss-HK-1624...
+  - 🇹🇼TW_2|2.8MB/s
+  - 🇮🇹IT_5|1.1MB/s
+  - 🇺🇸US_13|2.7MB/s
   - '🇮🇹 意大利 | ITA #1'
-  - 🇳🇱NL_1|2.3MB/s
-  - '🇳🇱 荷兰 | NLD 2 #2'
-  - '🇬🇧 英国 | GBR #1 #2'
-  - 🇳🇱 荷兰 | NLD 2
-  - '🇮🇹 意大利 | ITA #6'
-  - 🇺🇸 美国 | USA 9
-  - 🇪🇪EE_1|1.5MB/s
-  - 🇩🇪DE_3|2.9MB/s
-  - 🇩🇰DK_1|3.8MB/s
-  - 🇧🇪BE_2|1.4MB/s
-  - 🇺🇸 美国 | USA 2
-  - 🇰🇿KZ_1|1.4MB/s
-  - 🇪🇪 爱沙尼亚 | EST
-  - 🇮🇹IT_10|2.8MB/s
-  - 🇺🇸US_3|1006KB/s
-  - '🇮🇹 意大利 | ITA #4'
-  - ❓未知丨yoyapai.com (44)
-  - '🇮🇹 意大利 | ITA #2'
-  - 🇺🇸US_1|1.3MB/s
-  - '🇬🇧 英国 | GBR #3 #2'
-  - US美国(mibei77.com 米贝节点分享) (17)
+  - 🇮🇹IT_3|2.2MB/s
+  - 🇮🇹IT_6|2.7MB/s
+  - 🇮🇹IT_4|2.1MB/s
+  - 🇺🇸US_25|3.2MB/s
+  - 🇮🇹IT_7|3.5MB/s
+  - 🇮🇹IT_1|1.8MB/s
+  - 🇺🇸US_11|2.8MB/s
+  - 英国+伦敦南岸大学
+  - 🇮🇹IT_9|3.9MB/s
+  - 🇯🇵JP_1|1.1MB/s
+  - 🇩🇪DE_4|3.0MB/s
+  - 🇮🇹IT_8|1.2MB/s
+  - 🇩🇪DE_3|3.6MB/s
+  - '🇮🇹[www.v2nodes.com] ss-IT-1619... #4'
+  - 🇺🇸 美国 | USA 28
   - US美国(mibei77.com 米贝节点分享) (9)
-  - 🇺🇸 美国 | USA 4
+  - '🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  - 🇮🇹IT_2|2.6MB/s
+  - 🇺🇸 美国 | USA 30
+  - 🇩🇪DE_15|1.8MB/s
+  - 🇳🇱 荷兰 | NLD 3
+  - ProxyPool | 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 3
+  - 🇫🇷FR_1|3.4MB/s
+  - US美国(mibei77.com 米贝节点分享) (11)
+  - 🇺🇸 美国 | USA 24
+  - 🇳🇱NL荷兰丨yoyapai.com (2)
+  - 🇺🇸 美国 | USA 5
+  - 西班牙(mibei77.com 米贝节点分享) (5)
+  - 🇺🇸 美国 | USA 11
+  - US美国(mibei77.com 米贝节点分享) (8)
+  - 🇰🇷[www.v2nodes.com] ss-KR-1624...
+  - US美国(mibei77.com 米贝节点分享) (17)
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇩🇪 德国 | DEU
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: ☑️ 手动切换
   type: select
   proxies:
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
-  - 🇹🇼TW_1|1.3MB/s
-  - 🇸🇬SG_1|4.7MB/s
-  - '🇬🇧 英国 | GBR #6'
-  - 🇭🇰 香港 | HKG 4
-  - 🇯🇵 日本 | JPN 2
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇺🇸 美国 | USA #5'
-  - '🇮🇹 意大利 | ITA #9'
-  - '🇺🇸 美国 | USA #10'
-  - 🇮🇹IT_9|2.9MB/s
-  - '🇮🇹 意大利 | ITA #3'
-  - '🇺🇸 美国 | USA #7'
-  - '🇮🇹 意大利 | ITA #7'
-  - '🇮🇹 意大利 | ITA #8'
-  - '🇮🇹 意大利 | ITA #5'
+  - 🇭🇰[www.v2nodes.com] ss-HK-1624...
+  - 🇹🇼TW_2|2.8MB/s
+  - 🇮🇹IT_5|1.1MB/s
+  - 🇺🇸US_13|2.7MB/s
   - '🇮🇹 意大利 | ITA #1'
-  - 🇳🇱NL_1|2.3MB/s
-  - '🇳🇱 荷兰 | NLD 2 #2'
-  - '🇬🇧 英国 | GBR #1 #2'
-  - 🇳🇱 荷兰 | NLD 2
-  - '🇮🇹 意大利 | ITA #6'
-  - 🇺🇸 美国 | USA 9
-  - 🇪🇪EE_1|1.5MB/s
-  - 🇩🇪DE_3|2.9MB/s
-  - 🇩🇰DK_1|3.8MB/s
-  - 🇧🇪BE_2|1.4MB/s
-  - 🇺🇸 美国 | USA 2
-  - 🇰🇿KZ_1|1.4MB/s
-  - 🇪🇪 爱沙尼亚 | EST
-  - 🇮🇹IT_10|2.8MB/s
-  - 🇺🇸US_3|1006KB/s
-  - '🇮🇹 意大利 | ITA #4'
-  - ❓未知丨yoyapai.com (44)
-  - '🇮🇹 意大利 | ITA #2'
-  - 🇺🇸US_1|1.3MB/s
-  - '🇬🇧 英国 | GBR #3 #2'
-  - US美国(mibei77.com 米贝节点分享) (17)
+  - 🇮🇹IT_3|2.2MB/s
+  - 🇮🇹IT_6|2.7MB/s
+  - 🇮🇹IT_4|2.1MB/s
+  - 🇺🇸US_25|3.2MB/s
+  - 🇮🇹IT_7|3.5MB/s
+  - 🇮🇹IT_1|1.8MB/s
+  - 🇺🇸US_11|2.8MB/s
+  - 英国+伦敦南岸大学
+  - 🇮🇹IT_9|3.9MB/s
+  - 🇯🇵JP_1|1.1MB/s
+  - 🇩🇪DE_4|3.0MB/s
+  - 🇮🇹IT_8|1.2MB/s
+  - 🇩🇪DE_3|3.6MB/s
+  - '🇮🇹[www.v2nodes.com] ss-IT-1619... #4'
+  - 🇺🇸 美国 | USA 28
   - US美国(mibei77.com 米贝节点分享) (9)
-  - 🇺🇸 美国 | USA 4
+  - '🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  - 🇮🇹IT_2|2.6MB/s
+  - 🇺🇸 美国 | USA 30
+  - 🇩🇪DE_15|1.8MB/s
+  - 🇳🇱 荷兰 | NLD 3
+  - ProxyPool | 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 3
+  - 🇫🇷FR_1|3.4MB/s
+  - US美国(mibei77.com 米贝节点分享) (11)
+  - 🇺🇸 美国 | USA 24
+  - 🇳🇱NL荷兰丨yoyapai.com (2)
+  - 🇺🇸 美国 | USA 5
+  - 西班牙(mibei77.com 米贝节点分享) (5)
+  - 🇺🇸 美国 | USA 11
+  - US美国(mibei77.com 米贝节点分享) (8)
+  - 🇰🇷[www.v2nodes.com] ss-KR-1624...
+  - US美国(mibei77.com 米贝节点分享) (17)
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇩🇪 德国 | DEU
 - name: ⚡ 高速节点
   type: url-test
   proxies:
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
-  - 🇹🇼TW_1|1.3MB/s
-  - 🇸🇬SG_1|4.7MB/s
-  - '🇬🇧 英国 | GBR #6'
-  - 🇭🇰 香港 | HKG 4
-  - 🇯🇵 日本 | JPN 2
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇺🇸 美国 | USA #5'
-  - '🇮🇹 意大利 | ITA #9'
-  - '🇺🇸 美国 | USA #10'
-  - 🇮🇹IT_9|2.9MB/s
-  - '🇮🇹 意大利 | ITA #3'
+  - 🇭🇰[www.v2nodes.com] ss-HK-1624...
+  - 🇹🇼TW_2|2.8MB/s
+  - 🇮🇹IT_5|1.1MB/s
+  - 🇺🇸US_13|2.7MB/s
+  - '🇮🇹 意大利 | ITA #1'
+  - 🇮🇹IT_3|2.2MB/s
+  - 🇮🇹IT_6|2.7MB/s
+  - 🇮🇹IT_4|2.1MB/s
+  - 🇺🇸US_25|3.2MB/s
+  - 🇮🇹IT_7|3.5MB/s
+  - 🇮🇹IT_1|1.8MB/s
+  - 🇺🇸US_11|2.8MB/s
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇭🇰 香港节点
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 4
+  - 🇭🇰[www.v2nodes.com] ss-HK-1624...
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇺🇸 美国节点
   type: url-test
   proxies:
-  - '🇺🇸 美国 | USA #5'
-  - '🇺🇸 美国 | USA #10'
-  - '🇺🇸 美国 | USA #7'
-  - 🇺🇸 美国 | USA 9
-  - 🇺🇸 美国 | USA 2
-  - 🇺🇸US_3|1006KB/s
-  - 🇺🇸US_1|1.3MB/s
-  - US美国(mibei77.com 米贝节点分享) (17)
+  - 🇺🇸US_13|2.7MB/s
+  - 🇺🇸US_25|3.2MB/s
+  - 🇺🇸US_11|2.8MB/s
+  - 🇺🇸 美国 | USA 28
   - US美国(mibei77.com 米贝节点分享) (9)
-  - 🇺🇸 美国 | USA 4
+  - '🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  - 🇺🇸 美国 | USA 30
+  - ProxyPool | 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 3
+  - US美国(mibei77.com 米贝节点分享) (11)
+  - 🇺🇸 美国 | USA 24
+  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 11
+  - US美国(mibei77.com 米贝节点分享) (8)
+  - US美国(mibei77.com 米贝节点分享) (17)
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇯🇵 日本节点
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 2
-  url: https://cp.cloudflare.com/generate_204
-  interval: 300
-  tolerance: 50
-- name: 🇸🇬 新加坡节点
-  type: url-test
-  proxies:
-  - 🇸🇬SG_1|4.7MB/s
+  - 🇯🇵JP_1|1.1MB/s
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇹🇼 台湾节点
   type: url-test
   proxies:
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
-  - 🇹🇼TW_1|1.3MB/s
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
+  - 🇹🇼TW_2|2.8MB/s
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+- name: 🇰🇷 韩国节点
+  type: url-test
+  proxies:
+  - 🇰🇷[www.v2nodes.com] ss-KR-1624...
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇬🇧 英国节点
   type: url-test
   proxies:
-  - '🇬🇧 英国 | GBR #6'
-  - '🇬🇧 英国 | GBR #1 #2'
-  - '🇬🇧 英国 | GBR #3 #2'
+  - 英国+伦敦南岸大学
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇩🇪 德国节点
   type: url-test
   proxies:
-  - 🇩🇪DE_3|2.9MB/s
+  - 🇩🇪DE_4|3.0MB/s
+  - 🇩🇪DE_3|3.6MB/s
+  - 🇩🇪DE_15|1.8MB/s
+  - 🇩🇪 德国 | DEU
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🇳🇱 荷兰节点
   type: url-test
   proxies:
-  - 🇳🇱NL_1|2.3MB/s
-  - '🇳🇱 荷兰 | NLD 2 #2'
-  - 🇳🇱 荷兰 | NLD 2
+  - 🇳🇱 荷兰 | NLD 3
+  - 🇳🇱NL荷兰丨yoyapai.com (2)
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+- name: 🇫🇷 法国节点
+  type: url-test
+  proxies:
+  - 🇫🇷FR_1|3.4MB/s
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
 - name: 🏳️ 其他地区
   type: url-test
   proxies:
-  - '🇮🇹 意大利 | ITA #9'
-  - 🇮🇹IT_9|2.9MB/s
-  - '🇮🇹 意大利 | ITA #3'
-  - '🇮🇹 意大利 | ITA #7'
-  - '🇮🇹 意大利 | ITA #8'
-  - '🇮🇹 意大利 | ITA #5'
+  - 🇮🇹IT_5|1.1MB/s
   - '🇮🇹 意大利 | ITA #1'
-  - '🇮🇹 意大利 | ITA #6'
-  - 🇪🇪EE_1|1.5MB/s
-  - 🇩🇰DK_1|3.8MB/s
-  - 🇧🇪BE_2|1.4MB/s
-  - 🇰🇿KZ_1|1.4MB/s
+  - 🇮🇹IT_3|2.2MB/s
+  - 🇮🇹IT_6|2.7MB/s
+  - 🇮🇹IT_4|2.1MB/s
+  - 🇮🇹IT_7|3.5MB/s
+  - 🇮🇹IT_1|1.8MB/s
+  - 🇮🇹IT_9|3.9MB/s
+  - 🇮🇹IT_8|1.2MB/s
+  - '🇮🇹[www.v2nodes.com] ss-IT-1619... #4'
+  - 🇮🇹IT_2|2.6MB/s
+  - 西班牙(mibei77.com 米贝节点分享) (5)
   - 🇪🇪 爱沙尼亚 | EST
-  - 🇮🇹IT_10|2.8MB/s
-  - '🇮🇹 意大利 | ITA #4'
-  - ❓未知丨yoyapai.com (44)
-  - '🇮🇹 意大利 | ITA #2'
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 50
@@ -4307,11 +4379,12 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇹🇼 台湾节点
+  - 🇰🇷 韩国节点
   - 🇬🇧 英国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
+  - 🇫🇷 法国节点
   - 🏳️ 其他地区
   - DIRECT
 - name: 🤖 OpenAi 专线
@@ -4320,46 +4393,46 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
-  - 🇹🇼TW_1|1.3MB/s
-  - 🇸🇬SG_1|4.7MB/s
-  - '🇬🇧 英国 | GBR #6'
-  - 🇯🇵 日本 | JPN 2
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇺🇸 美国 | USA #5'
-  - '🇺🇸 美国 | USA #10'
-  - '🇺🇸 美国 | USA #7'
-  - 🇳🇱NL_1|2.3MB/s
-  - '🇳🇱 荷兰 | NLD 2 #2'
-  - '🇬🇧 英国 | GBR #1 #2'
-  - 🇳🇱 荷兰 | NLD 2
-  - 🇺🇸 美国 | USA 9
-  - 🇩🇪DE_3|2.9MB/s
-  - 🇺🇸 美国 | USA 2
-  - 🇺🇸US_3|1006KB/s
-  - 🇺🇸US_1|1.3MB/s
-  - '🇬🇧 英国 | GBR #3 #2'
-  - 🇺🇸 美国 | USA 4
-  - 🇭🇰 香港 | HKG 4
-  - '🇮🇹 意大利 | ITA #9'
-  - 🇮🇹IT_9|2.9MB/s
-  - '🇮🇹 意大利 | ITA #3'
-  - '🇮🇹 意大利 | ITA #7'
-  - '🇮🇹 意大利 | ITA #8'
-  - '🇮🇹 意大利 | ITA #5'
+  - 🇹🇼TW_2|2.8MB/s
+  - 🇺🇸US_13|2.7MB/s
+  - 🇺🇸US_25|3.2MB/s
+  - 🇺🇸US_11|2.8MB/s
+  - 🇯🇵JP_1|1.1MB/s
+  - 🇩🇪DE_4|3.0MB/s
+  - 🇩🇪DE_3|3.6MB/s
+  - 🇺🇸 美国 | USA 28
+  - '🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  - 🇺🇸 美国 | USA 30
+  - 🇩🇪DE_15|1.8MB/s
+  - 🇳🇱 荷兰 | NLD 3
+  - ProxyPool | 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 3
+  - 🇫🇷FR_1|3.4MB/s
+  - 🇺🇸 美国 | USA 24
+  - 🇳🇱NL荷兰丨yoyapai.com (2)
+  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 11
+  - 🇩🇪 德国 | DEU
+  - 🇭🇰[www.v2nodes.com] ss-HK-1624...
+  - 🇮🇹IT_5|1.1MB/s
   - '🇮🇹 意大利 | ITA #1'
-  - '🇮🇹 意大利 | ITA #6'
-  - 🇪🇪EE_1|1.5MB/s
-  - 🇩🇰DK_1|3.8MB/s
-  - 🇧🇪BE_2|1.4MB/s
-  - 🇰🇿KZ_1|1.4MB/s
-  - 🇪🇪 爱沙尼亚 | EST
-  - 🇮🇹IT_10|2.8MB/s
-  - '🇮🇹 意大利 | ITA #4'
-  - ❓未知丨yoyapai.com (44)
-  - '🇮🇹 意大利 | ITA #2'
-  - US美国(mibei77.com 米贝节点分享) (17)
+  - 🇮🇹IT_3|2.2MB/s
+  - 🇮🇹IT_6|2.7MB/s
+  - 🇮🇹IT_4|2.1MB/s
+  - 🇮🇹IT_7|3.5MB/s
+  - 🇮🇹IT_1|1.8MB/s
+  - 英国+伦敦南岸大学
+  - 🇮🇹IT_9|3.9MB/s
+  - 🇮🇹IT_8|1.2MB/s
+  - '🇮🇹[www.v2nodes.com] ss-IT-1619... #4'
   - US美国(mibei77.com 米贝节点分享) (9)
+  - 🇮🇹IT_2|2.6MB/s
+  - US美国(mibei77.com 米贝节点分享) (11)
+  - 西班牙(mibei77.com 米贝节点分享) (5)
+  - US美国(mibei77.com 米贝节点分享) (8)
+  - 🇰🇷[www.v2nodes.com] ss-KR-1624...
+  - US美国(mibei77.com 米贝节点分享) (17)
+  - 🇪🇪 爱沙尼亚 | EST
 - name: 🔍 谷歌专线
   type: url-test
   url: https://www.google.com/generate_204
@@ -4374,11 +4447,12 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇹🇼 台湾节点
+  - 🇰🇷 韩国节点
   - 🇬🇧 英国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
+  - 🇫🇷 法国节点
   - 🏳️ 其他地区
   - DIRECT
 - name: Ⓜ️ 微软服务
@@ -4391,11 +4465,12 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇹🇼 台湾节点
+  - 🇰🇷 韩国节点
   - 🇬🇧 英国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
+  - 🇫🇷 法国节点
   - 🏳️ 其他地区
 - name: 🍎 苹果服务
   type: select
@@ -4407,11 +4482,12 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇹🇼 台湾节点
+  - 🇰🇷 韩国节点
   - 🇬🇧 英国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
+  - 🇫🇷 法国节点
   - 🏳️ 其他地区
 - name: 🎯 全球直连
   type: select
@@ -4437,9 +4513,10 @@ proxy-groups:
   - 🇭🇰 香港节点
   - 🇺🇸 美国节点
   - 🇯🇵 日本节点
-  - 🇸🇬 新加坡节点
   - 🇹🇼 台湾节点
+  - 🇰🇷 韩国节点
   - 🇬🇧 英国节点
   - 🇩🇪 德国节点
   - 🇳🇱 荷兰节点
+  - 🇫🇷 法国节点
   - 🏳️ 其他地区
